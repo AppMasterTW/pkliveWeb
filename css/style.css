@@ -36,85 +36,147 @@ header{
 	border-bottom: 1px rgba(151,151,151,0.5) solid;
 }
 .top_header{
-	border-bottom: 1px rgba(151,151,151,0.5) solid;
-	padding-left: 9.7%;
-	padding-right: 9.7%;
 	overflow:auto;
+	color: #9B9B9B;
+	border-bottom: 1px rgba(151,151,151,0.5) solid;
+	line-height: 17px;
 }
-.top_header ul{
-	/*padding-left: 9.7%;*/
+.top_header .top_nav{
 	float: left;
+	padding-left: 9.7%;
 	color: #9B9B9B;
 }
-.top_header ul li{
-	margin: 0;
+.top_header .top_nav li{
+	display: inline-block;
+	}
+.top_header .top_nav li a{
 	font-size: 12px;
 	font-family: PingFangTC-Semibold, sans-serif;
 	letter-spacing: 0.9px;
 	line-height: 17px;
-	text-align: center;
 	color: #9b9b9b;
-	display: inline-block;
 	padding: 4px 10px;
 	border-right: 1px rgba(151,151,151,0.5) solid;
 }
-.top_header .left_bar li:first-child{
+
+.top_header .top_nav li:first-child>a{
 	padding-left: 0;
 }
-.top_header .icon{
+.top_header .top_nav .icon a{
 	border-right: none;
 }
-.top_header ul.search_bar{
-	border-left: 1px rgba(151,151,151,0.5) solid;
-	border-right: 1px rgba(151,151,151,0.5) solid;
-	padding-left: 0;
+.top_header .top_nav .icon img{
+	vertical-align: middle;
+}
+.top_header .search_bar{
+	padding-right: 9.7%;
 	float: right;
 }
-.search_bar li i{
+.top_header .search_bar li{
+	display: inline-block;
+	border-left: 1px rgba(151,151,151,0.5) solid;
+	border-right: 1px rgba(151,151,151,0.5) solid;
+	padding: 1px 10px;
 	padding-right: 148px;
+}
+.top_header .search_bar li img{
+	vertical-align: middle;
+	
 }
 .clearfix{
 	clear: both;
 }
 
-
-.main_header{
+/*.main_header{
 	overflow:auto;
-}
+}*/
 .logo{
 	float: left;
-	padding: 12px 0;
 	padding-left: 9.7%;
-	
 }
-.logo img{
-	height: 36px;
+.logo li{
+	display: inline-block;/*
+	vertical-align: middle;*/
+	padding: 8px 0;
+}
+.logo a img{
 	vertical-align: middle;
 }
-.main_header ul{
+.main_header .main_nav{
 	float: right;
-	color: #9B9B9B;
-	display: inline-block;
+	color: #9B9B9B;/*
+	display: inline-block;*/
 	padding-right: 9.7%;
 }
-.main_header ul li{
-	font-size: 20px;
-	font-weight: 200;
-	letter-spacing: 1.5px;
-	color: #ffffff;
-	text-align: center;
+.main_header .main_nav li{
 	display: inline-block;
-	padding: 19px 32px;
+	text-align: center;
+	padding: 17px 32px;
 	vertical-align: middle;
+	position: relative;
+}
+.main_header .main_nav li a{
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Light, sans-serif;
+	line-height: 28px;
+	color: #ffffff;
+	position: relative;
 	transition: 300ms;
+	
 } 
-.main_header ul li:hover{
+
+/*sub-menu*/
+/*
+.main_header .main_nav li a:after{
+    content: "";
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    background-color: #f95959;
+    transform: translate(0,-5px);
+    height: 3px;
+    z-index: 2;
+    opacity: 0;
+    position: absolute ;  
+    transition: 500ms;
+}
+.main_header .main_nav li a:hover:after{
+    left: 10px;
+    right: 10px;
+    opacity: 0.7;
+    transform: translate(0,10px);
+}
+
+.main_sub_nav{
+    position: absolute;
+    background-color: rgba(57, 62, 70, 0.5);
+    z-index: 2;
+    left: 50%;
+    transform:translate(-50%,0) scale(0.8);
+    transform-origin: 50%-10px;
+    pointer-events: none;
+    opacity: 0;
+    transition:  transform 500ms cubic-bezier(0.895, 0.030, 0.685, 0.220),opacity 300ms;
+    
+}
+.main_nav li:hover .main_sub_nav{
+    transform:translate(-50%,0) scale(1);
+    pointer-events: auto;
+    opacity: 1;
+}*/
+
+
+.main_header ul li a:hover{
 	color: #9b9b9b;
 	}
-
-.main_header .user{
+.main_nav li:nth-child(5){
+	padding: 15px 32px;
+}
+.main_header .main_nav .user{
 	fill:#fff;
 	transition: 300ms;
+	
 	}
 .main_header .user:hover{
 	fill: #9b9b9b;
@@ -755,20 +817,20 @@ footer{
 	padding-bottom: 44px;
 }
 
-#main_footer .nav{
+#main_footer .footer_nav{
 	text-align: left;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 44px;
 	float: left;
 	}
-#main_footer .nav li{
+#main_footer .footer_nav li{
 	color: #fff;
 	font-size: 14px;
 	font-family: PingFangTC-Light, sans-serif;
 	line-height: 20px;
 }
-#main_footer .nav .headline{
+#main_footer .footer_nav .headline{
 	font-size: 16px;
 	font-family: PingFangTC-Semibold, sans-serif;
 	line-height: 22px;
