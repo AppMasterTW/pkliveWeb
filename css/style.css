@@ -127,7 +127,7 @@ header{
 } 
 
 /*sub-menu*/
-
+/*
 .main_header .main_nav li a:after{
     content: "";
     bottom: 0;
@@ -158,13 +158,13 @@ header{
     pointer-events: none;
     opacity: 0;
     transition:  transform 500ms cubic-bezier(0.895, 0.030, 0.685, 0.220),opacity 300ms;
-    /*z-index: 99;*/
+    
 }
 .main_nav li:hover .main_sub_nav{
     transform:translate(-50%,0) scale(1);
     pointer-events: auto;
     opacity: 1;
-}
+}*/
 
 
 .main_header ul li a:hover{
