@@ -127,7 +127,7 @@ header{
 } 
 
 /*sub-menu*/
-/*
+
 .main_header .main_nav li a:after{
     content: "";
     bottom: 0;
@@ -164,7 +164,7 @@ header{
     transform:translate(-50%,0) scale(1);
     pointer-events: auto;
     opacity: 1;
-}*/
+}
 
 
 .main_header ul li a:hover{
