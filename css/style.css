@@ -87,9 +87,9 @@ header{
 	clear: both;
 }
 
-.main_header{
+/*.main_header{
 	overflow:auto;
-}
+}*/
 .logo{
 	float: left;
 	padding-left: 9.7%;
@@ -114,6 +114,8 @@ header{
 	padding: 17px 32px;
 	vertical-align: middle;
 	transition: 300ms;
+	position: relative;
+
 }
 .main_header .main_nav li a{
 	font-size: 20px;
@@ -121,7 +123,50 @@ header{
 	letter-spacing: 1.5px;
 	line-height: 28px;
 	color: #ffffff;
+	position: relative;
 } 
+
+/*sub-menu*/
+
+.main_header .main_nav li a:after{
+    content: "";
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    background-color: #f95959;
+    transform: translate(0,-5px);
+    height: 3px;
+    z-index: 2;
+    opacity: 0;
+    position: absolute ;  
+    transition: 500ms;
+}
+.main_header .main_nav li a:hover:after{
+    left: 10px;
+    right: 10px;
+    opacity: 0.7;
+    transform: translate(0,10px);
+}
+
+.main_sub_nav{
+    position: absolute;
+    background-color: rgba(57, 62, 70, 0.5);
+    z-index: 2;
+    left: 50%;
+    transform:translate(-50%,0) scale(0.8);
+    transform-origin: 50%-10px;
+    pointer-events: none;
+    opacity: 0;
+    transition:  transform 500ms cubic-bezier(0.895, 0.030, 0.685, 0.220),opacity 300ms;
+    /*z-index: 99;*/
+}
+.main_nav li:hover .main_sub_nav{
+    transform:translate(-50%,0) scale(1);
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
 .main_header ul li a:hover{
 	color: #9b9b9b;
 	}
