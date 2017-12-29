@@ -195,7 +195,7 @@ header{
 	letter-spacing: 1.3px;
 	text-align: center;
 	color: #ffffff;
-	margin-top: 432px;
+	margin-top: 270px;
 }
 .main_slogan span{
 	font-size: 48px;
@@ -208,44 +208,30 @@ header{
 /*slogan end*/
 
 /*mouse*/
-/*.mouse{
-	margin-top: 229px;
-	margin-bottom: 154px;
-}
-.mouse img{
-	width: 25px;
-	height: 38px;
-}*/
+
 .mouse{
-	margin: 50px auto;
-	width: 25px;
-	height: 38px;
-	border: 3px solid #fff;
-	border-radius: 13px;
-	margin-top: 229px;
-	margin-bottom: 154px;
+	margin: 223px auto;
+	margin-bottom: 250px;
+	font-size: 50px;
+	animation: scroll 1.5s 1s forwards ;
 }
-.scroll{
-	margin: 0 auto;
-	width: 3px;
-	height: 6px;
-	background-color: #fff;
-	border-radius: 1.5px;
-	margin-top: 2px;
-	animation: scroll 1.5s 1s forwards;
+.mouse i{
+	color: #fff;
+	opacity: 0.7;
 }
+
 @keyframes scroll{
   0%{
     transform: translateY(0);
   }
   25%{
-    transform: translateY(3px);
+    transform: translateY(15px);
   }
   50%{
   	transform: translateY(0);
   }
   75%{
-  	transform: translateY(3px);
+  	transform: translateY(15px);
   }
   100%{
     transform: translateY(0);
