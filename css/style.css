@@ -169,7 +169,7 @@ header{
 
 /*sub_nav end*/
 
-.main_nav_item a:hover{
+.main_nav_item:hover.main_nav_item a{
 	color: #f95959;
 	}
 .main_nav_item:nth-child(5){
@@ -178,11 +178,10 @@ header{
 .main_nav_item .user{
 	fill:#fff;
 	transition: 300ms;
-	
-	}
-.main_nav_item .user:hover{
+}
+.main_nav_item:hover.main_nav_item .user{
 	fill: #f95959;
-	}
+}
 .clearfix{
 	clear: both;
 }
@@ -748,19 +747,16 @@ img.pin{
 /*sec5 end*/
 
 /*function button*/
-#functionbtn{
+#function_bar{
 	position: fixed;
 	z-index: 99;
 	bottom: 40px;
 	right: 10px;
 }
-#functionbtn ul{
+#function_bar ul{
 	text-align: right;
 }
-#functionbtn .live{
-	background-color: #9013FE;
-}
-#functionbtn li{
+#function_bar li{
 	display: inline-block;
 	padding: 0;
 	margin: 0;
@@ -770,44 +766,102 @@ img.pin{
 	vertical-align: middle;
 	transition: 300ms;
 }
-#functionbtn li a{
+#function_bar li a{
 	display: inline-block ;
 	vertical-align: middle;
 }
-
-#functionbtn .btn_content{
-	padding: 0;
+#function_bar .live.function_btn{
+	background-color: #9013FE;
 }
-#functionbtn .btn_content a{
+#function_bar .func_content{
+	padding: 0;
+	display: none;
+}
+
+#function_bar .func_content a{
 	background-color: #F95959;
 	padding: 7px 10px;
 	color: #fff;
 	}
-#functionbtn .btn_content.live a{
+#function_bar .live.func_content a{
 	background-color: #9013FE;
 }
 svg{
 	vertical-align: middle;
 }
-.btn_icon{
+
+#function_bar .btn_icon{
 	fill:#9B9B9B;
 }
-.live .btn_icon{
+#function_bar .live .btn_icon{
 	fill:#fff;
 }
-#functionbtn li:hover{
+/*QR content*/
+.QR{
+	position: relative;
+}
+.func_content.QR{
+	position:absolute;
+	bottom: 0;
+	right: 38px;
+}
+.func_content.QR a{
+	padding: 0 !important;
+}
+.func_content.QR svg{
+	width: 90px;
+	height: 90px;
+	}
+/*QR content end*/
+
+/*hover*/
+#function_bar .function_btn:hover{
 	background-color: #F95959;
 }
-#functionbtn .live:hover{
-	background-color: #9013FE;
+#function_bar .live.function_btn:hover{
+	background-color:#9013FE;
 }
-#functionbtn li:hover .btn_icon{
+
+#function_bar .function_btn:hover .btn_icon{
 	fill:#fff;
 }
-#functionbtn li:hover .btn_content{
-	
-	display: none;
+
+
+#function_bar:hover .func_content.top{
+	display: inline-block;
+
 }
+/*hover end*/
+.cs{
+	position: relative;
+
+}
+.cs_room{
+	position:absolute;
+	bottom: 0;
+	right: 38px;
+	width: 491px;
+	background-color: #393E46;
+	border:1px solid #F2F2F2;
+	text-align: center;
+}
+.cs_header{
+	text-align: center;
+	padding: 14px 0;
+	color: #F95959;
+	font-size: 16px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 22px;
+}
+.cs_body{
+	width: 100%;
+}
+/*cs room*/
+
+
+
+/*cs room end*/
+
 /*function button end*/
 
 /*footer*/
