@@ -679,7 +679,6 @@ img.pin{
 }
 
 .sec5_intro_right{
-	
 	display: none;
 }
 .box_3{
@@ -741,8 +740,9 @@ img.pin{
 	padding: 15px 42px;
 	display: inline-block;
 	transform: translateY(-68px);
+	transition: 300ms;
 }
-.box_3 a:hover{
+.box_3:hover.box_3 a{
 	background-color: #FA8B8B;
 	color: #fff;
 }
