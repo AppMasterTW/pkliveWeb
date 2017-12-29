@@ -167,9 +167,10 @@ header{
     opacity: 1;
 }
 
+/*sub_nav end*/
 
 .main_nav_item a:hover{
-	color: #9b9b9b;
+	color: #f95959;
 	}
 .main_nav_item:nth-child(5){
 	padding: 15px 32px;
@@ -180,7 +181,7 @@ header{
 	
 	}
 .main_nav_item .user:hover{
-	fill: #9b9b9b;
+	fill: #f95959;
 	}
 .clearfix{
 	clear: both;
