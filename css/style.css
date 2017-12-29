@@ -761,46 +761,65 @@ img.pin{
 
 /*sec5 end*/
 
-/*functionbtn*/
-/*.content_wrapper{
-	position: relative;
-}*/
+/*function button*/
 #functionbtn{
-
 	position: fixed;
 	z-index: 99;
 	bottom: 40px;
 	right: 10px;
 }
 #functionbtn ul{
-	background-color: #fff;
+	text-align: right;
 }
-
+#functionbtn .live{
+	background-color: #9013FE;
+}
 #functionbtn li{
+	display: inline-block;
 	padding: 0;
 	margin: 0;
 	background-color: #fff;
-	box-sizing: content-box;
 	border:#F2F2F2 solid 1px;
-	padding: 2px;
+	padding: 1px;
+	vertical-align: middle;
+	transition: 300ms;
 }
 #functionbtn li a{
 	display: inline-block ;
 	vertical-align: middle;
 }
+
+#functionbtn .btn_content{
+	padding: 0;
+}
+#functionbtn .btn_content a{
+	background-color: #F95959;
+	padding: 7px 10px;
+	color: #fff;
+	}
 svg{
 	vertical-align: middle;
 }
 .btn_icon{
 	fill:#9B9B9B;
 }
+.live .btn_icon{
+	fill:#fff;
+}
 #functionbtn li:hover{
+	background-color: #F95959;
+}
+#functionbtn .live:hover{
 	background-color: #9013FE;
 }
 #functionbtn li:hover .btn_icon{
 	fill:#fff;
 }
-
+#functionbtn li:hover .btn_content{
+	
+	display: none;
+}
+/*function button end*/
 
 /*footer*/
 footer{
