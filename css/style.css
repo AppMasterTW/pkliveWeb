@@ -797,6 +797,9 @@ img.pin{
 	padding: 7px 10px;
 	color: #fff;
 	}
+#functionbtn .btn_content.live a{
+	background-color: #9013FE;
+}
 svg{
 	vertical-align: middle;
 }
