@@ -1,0 +1,167 @@
+/*function button*/
+#function_bar{
+	position: fixed;
+	z-index: 99;
+	bottom: 40px;
+	right: 10px;
+}
+#function_bar ul{
+	text-align: right;
+}
+#function_bar li{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	border:#F2F2F2 solid 1px;
+	padding: 1px;
+	vertical-align: middle;
+	transition: 300ms;
+}
+#function_bar li a{
+	display: inline-block ;
+	vertical-align: middle;
+}
+#function_bar .live.function_btn{
+	background-color: #9013FE;
+}
+#function_bar .func_content{
+	padding: 0;
+	display: none;
+}
+
+#function_bar .func_content a{
+	background-color: #F95959;
+	padding: 7px 10px;
+	color: #fff;
+	}
+#function_bar .live.func_content a{
+	background-color: #9013FE;
+}
+svg{
+	vertical-align: middle;
+}
+
+#function_bar .btn_icon{
+	fill:#9B9B9B;
+}
+#function_bar .live .btn_icon{
+	fill:#fff;
+}
+/*QR content*/
+.QR{
+	position: relative;
+}
+.func_content.QR{
+	position:absolute;
+	bottom: 0;
+	right: 38px;
+}
+.func_content.QR a{
+	padding: 0 !important;
+}
+.func_content.QR svg{
+	width: 90px;
+	height: 90px;
+	}
+/*QR content end*/
+
+/*hover*/
+#function_bar .function_btn:hover{
+	background-color: #F95959;
+}
+#function_bar .live.function_btn:hover{
+	background-color:#9013FE;
+}
+
+#function_bar .function_btn:hover .btn_icon{
+	fill:#fff;
+}
+
+
+#function_bar:hover .func_content.top{
+	display: inline-block;
+
+}
+/*hover end*/
+.cs{
+	position: relative;
+}
+.cs_room{
+	position:absolute;
+	bottom: 0;
+	right: 38px;
+	width: 490px;
+	background-color: #393E46;
+	border:1px solid #F2F2F2;
+	text-align: center;
+	display: none;
+}
+.cs_header{
+	text-align: center;
+	padding: 14px 0;
+	color: #F95959;
+	font-size: 16px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 22px;
+	background-color: #1D1D1D;
+}
+.cs_body{
+	width: 100%;
+	text-align: center;
+}
+.cs_messagebox{
+	margin-bottom: 223px;
+}
+.cs_message{
+	text-align: left;
+	margin:0 auto;
+	font-size: 16px;
+	font-family: PingFangTC-Light, sans-serif;
+	line-height: 22px;
+	padding: 6px 12px;
+	border:1px solid #F5A623;
+	color: #fff;
+	width: 82%;
+	margin-top: 16px;
+}
+
+.cs_inputbox_wrapper{
+	width: 96%;
+	margin:0 auto;
+	border-top: 1px solid rgba(242,242,242,0.8);
+}
+.cs_inputbox{
+	background-color: #fff;
+	border:1px solid #F5A623;
+	margin:18px 6px;
+	overflow: hidden;
+
+}
+.cs_inputbox div{
+	vertical-align: middle;
+}
+.cs_inputbox a{
+	float: right;
+	padding: 17px 24px;
+	background-color: #F5A623;
+	color: #fff;
+}
+.cs_inputbox p{
+	float: left;
+	color: #9b9b9b;
+	font-size: 16px;
+	font-family: PingFangTC-Light, sans-serif;
+	line-height: 22px;
+	text-align: left;
+	padding-top: 8px;
+	padding-left: 8px;
+}
+
+/*cs room*/
+
+
+
+/*cs room end*/
+
+/*function button end*/
