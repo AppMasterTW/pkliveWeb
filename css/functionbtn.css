@@ -2,7 +2,7 @@
 #function_bar{
 	position: fixed;
 	z-index: 99;
-	bottom: 40px;
+	bottom: 0;
 	right: 10px;
 }
 #function_bar ul{
@@ -71,46 +71,13 @@ svg{
 	}
 /*QR content end*/
 
-/*hover*/
-#function_bar .function_btn:hover{
-	background-color: #F95959;
-}
-#function_bar .live.function_btn:hover{
-	background-color:#9013FE;
-}
-
-#function_bar .function_btn:hover .btn_icon{
-	fill:#fff;
-}
-
-#function_bar ul.top:hover .func_content.top{
-	display: inline-block;
-}
-#function_bar ul.live:hover .func_content.live{
-	display: inline-block;
-}
-#function_bar ul.qr:hover .func_content.qr{
-	display: inline-block;
-}
-#function_bar ul.qa:hover .func_content.qa{
-	display: inline-block;
-}
-
-#function_bar ul.cs:hover .func_content.cs{
-	display: inline-block;
-}
-#function_bar ul.cs:active .cs_room{
-	/*display: inline-block;*/
-	transform: scale(1);
-}
-
-
-/*hover end*/
+/*cs room*/
 .cs{
 	position: relative;
 }
 .func_cs_room{
 	transform: scale(0);
+	display: none;
 	transition: 300ms;
 	transform-origin: right bottom;
 }
@@ -225,7 +192,40 @@ svg{
 	padding-top: 8px;
 	padding-left: 8px;
 }
+/*cs room end*/
 
+/*hover*/
+#function_bar .function_btn:hover{
+	background-color: #F95959;
+}
+#function_bar .live.function_btn:hover{
+	background-color:#9013FE;
+}
 
+#function_bar .function_btn:hover .btn_icon{
+	fill:#fff;
+}
 
+#function_bar ul.top:hover .func_content.top{
+	display: inline-block;
+}
+#function_bar ul.live:hover .func_content.live{
+	display: inline-block;
+}
+#function_bar ul.qr:hover .func_content.qr{
+	display: inline-block;
+}
+#function_bar ul.qa:hover .func_content.qa{
+	display: inline-block;
+}
+
+#function_bar ul.cs:hover .func_content.cs{
+	display: inline-block;
+}
+#function_bar ul.cs:active .cs_room{
+	display: inline-block;
+	transform: scale(1);
+}
+
+/*hover end*/
 /*function button end*/
