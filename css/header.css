@@ -2,6 +2,9 @@
 header{
 	width: 100%;
 	border-bottom: 1px rgba(151,151,151,0.5) solid;
+	position: fixed;
+	top: 0;
+	
 }
 .top_header{
 	overflow:auto;
