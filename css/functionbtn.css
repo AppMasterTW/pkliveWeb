@@ -29,6 +29,7 @@
 	padding: 0;
 	border:#F2F2F2 solid 1px;
 	display: none;
+	transition: 300ms;
 }
 
 #function_bar .func_content a{
@@ -94,19 +95,24 @@ svg{
 #function_bar ul.qa:hover .func_content.qa{
 	display: inline-block;
 }
+
 #function_bar ul.cs:hover .func_content.cs{
 	display: inline-block;
 }
 #function_bar ul.cs:active .cs_room{
-	display: inline-block;
+	/*display: inline-block;*/
+	transform: scale(1);
 }
+
 
 /*hover end*/
 .cs{
 	position: relative;
 }
 .func_cs_room{
-		display: none;
+	transform: scale(0);
+	transition: 300ms;
+	transform-origin: right bottom;
 }
 .cs_room{
 	position:absolute;
