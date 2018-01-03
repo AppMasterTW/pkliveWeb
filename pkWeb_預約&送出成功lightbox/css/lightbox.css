@@ -7,7 +7,7 @@
 	background-color: rgba(29, 29, 29, 0.76);
 	z-index: 99;
 }
-.login_lightbox{
+.lightbox{
 	position:absolute;
 	top: 100px;
 	left: 0;
@@ -22,7 +22,7 @@
 .lightbox_header{
 	width: 100%;
 	height: 383px;
-	background: url(../image/login_lightbox/lightbox_bg@2x.png);
+	background: url(../image/lightbox/lightbox_bg@2x.png);
 	background-size: 100%;
 }
 .close img{
@@ -31,6 +31,10 @@
 	top: 0;
 	right: 0;
 	margin: 8px;
+	transition: 300ms;
+}
+.close img:hover{
+	transform: scale(1.1);
 }
 .lightbox_logo{
 	width: 247px;
@@ -46,7 +50,6 @@
 	color: #fff;
 	margin-top: 16px;
 }
-
 
 .lightbox_content .nav{
 	margin-top: 65px;
@@ -93,7 +96,7 @@
 	border-bottom: 3px solid #f5a623;
 }
 .input_group{
-	width: 51%;
+	width: 49%;
 	margin: 0 auto;
 	margin-top: 34px;
 	padding-bottom: 32px;
@@ -116,6 +119,13 @@
 /*input[type=text]:focus {
 	box-shadow: none;
 }*/
+.input_group a{
+	float: right;
+	color: #393E46;
+	font-size: 14px;
+    font-family: PingFangTC-Semibold, sans-serif;
+    line-height: 20px;
+}
 .lightbox_content input[type=submit]{
 	display: block;
 	width: 29%;
@@ -129,6 +139,7 @@
 	line-height: 20px;
 	border:none;
 	transition: 300ms;
+	margin-top: 33px;
 }
 .lightbox_content input[type=submit]:hover{
 	background-color: #F9C15D;
@@ -141,7 +152,7 @@
 
 /* The container */
 .checkbox_container {
-    display: block;
+    display: inline-block;
     position: relative;
     cursor: pointer;
     font-size: 22px;
@@ -158,20 +169,21 @@
 }
 
 /* Create a custom checkbox */
-  .container {
-  display: block;
-  position: relative;
-  padding-left: 24px;
-  cursor: pointer;
-  text-align: left;
-  font-size: 14px;
-  font-family: PingFangTC-Light, sans-serif;
-  line-height: 20px;
-  color: #393E46;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+.container {
+display: inline-block;
+float: left;
+position: relative;
+padding-left: 24px;
+cursor: pointer;
+text-align: left;
+font-size: 14px;
+font-family: PingFangTC-Light, sans-serif;
+line-height: 20px;
+color: #393E46;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
 }
 
 /* Hide the browser's default checkbox */
@@ -239,10 +251,14 @@
 	line-height: 22px;
 	color: #393E46;
 }
-
-.lightbox_content .link{
+.lightbox_content ul.link{
+	margin-bottom: 56px;
+	
+}
+.lightbox_content li.link{
 	display: inline-block;
 	padding: 0 7px;
+	
 }
 
 
