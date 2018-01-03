@@ -7,7 +7,7 @@
 	background-color: rgba(29, 29, 29, 0.76);
 	z-index: 99;
 }
-.login_lightbox{
+.lightbox{
 	position:absolute;
 	top: 100px;
 	left: 0;
@@ -15,7 +15,6 @@
 	margin: 0 auto;
 	background-color: #fff;
 	width: 975px;
-	height: 916px;
 	z-index: 100;
 	box-shadow: 8px 8px 0 #F95959;
 
@@ -117,6 +116,13 @@
 /*input[type=text]:focus {
 	box-shadow: none;
 }*/
+.input_group a{
+	float: right;
+	color: #393E46;
+	font-size: 14px;
+    font-family: PingFangTC-Semibold, sans-serif;
+    line-height: 20px;
+}
 .lightbox_content input[type=submit]{
 	display: block;
 	width: 29%;
@@ -130,6 +136,7 @@
 	line-height: 20px;
 	border:none;
 	transition: 300ms;
+	margin-top: 33px;
 }
 .lightbox_content input[type=submit]:hover{
 	background-color: #F9C15D;
@@ -142,7 +149,7 @@
 
 /* The container */
 .checkbox_container {
-    display: block;
+    display: inline-block;
     position: relative;
     cursor: pointer;
     font-size: 22px;
@@ -159,20 +166,21 @@
 }
 
 /* Create a custom checkbox */
-  .container {
-  display: block;
-  position: relative;
-  padding-left: 24px;
-  cursor: pointer;
-  text-align: left;
-  font-size: 14px;
-  font-family: PingFangTC-Light, sans-serif;
-  line-height: 20px;
-  color: #393E46;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+.container {
+display: inline-block;
+float: left;
+position: relative;
+padding-left: 24px;
+cursor: pointer;
+text-align: left;
+font-size: 14px;
+font-family: PingFangTC-Light, sans-serif;
+line-height: 20px;
+color: #393E46;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
 }
 
 /* Hide the browser's default checkbox */
@@ -240,10 +248,14 @@
 	line-height: 22px;
 	color: #393E46;
 }
-
-.lightbox_content .link{
+.lightbox_content ul.link{
+	margin-bottom: 56px;
+	
+}
+.lightbox_content li.link{
 	display: inline-block;
 	padding: 0 7px;
+	
 }
 
 

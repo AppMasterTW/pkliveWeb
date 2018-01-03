@@ -1,0 +1,251 @@
+.wrapper{
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	background-color: rgba(29, 29, 29, 0.76);
+	z-index: 99;
+}
+.login_lightbox{
+	position:absolute;
+	top: 100px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-color: #fff;
+	width: 975px;
+	z-index: 100;
+	box-shadow: 8px 8px 0 #F95959;
+
+}
+.lightbox_header{
+	width: 100%;
+	height: 383px;
+	background: url(../image/login_lightbox/lightbox_bg@2x.png);
+	background-size: 100%;
+}
+.close img{
+	width: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 8px;
+}
+.lightbox_logo{
+	width: 247px;
+	margin-top: 127px;
+}
+
+.lightbox_header p{
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Light, sans-serif;
+	line-height: 22px;
+	text-align: center;
+	color: #fff;
+	margin-top: 16px;
+}
+
+
+.lightbox_content .nav{
+	margin-top: 65px;
+}
+.nav li{
+	display: inline-block;
+	padding: 0 100px;
+	padding-bottom: 7px;
+	border-bottom: 3px solid #cccccc;
+	vertical-align: middle;
+	transition: 300ms;
+}
+.nav li.mid_line{
+	width: 1px;
+	height: 30px;
+	background-color: #cccccc;
+	padding: 0;
+	margin: 0 5px;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+.nav a{
+	font-size: 20px;
+	font-family: PingFangTC-Medium, sans-serif;
+	letter-spacing: 1.5px;
+	line-height: 28px;
+	text-align: center;
+	color: #cccccc;
+	transition: 300ms;
+}
+.unactive:hover.unactive a{
+	color: #f5a623;
+}
+
+.nav .active a{
+	color: #f5a623;
+}
+.nav li.active{
+	border-bottom: 3px solid #f5a623;
+}
+
+.nav li:hover{
+	border-bottom: 3px solid #f5a623;
+}
+.input_group{
+	width: 51%;
+	margin: 0 auto;
+	margin-top: 34px;
+	padding-bottom: 32px;
+	border-bottom: 2px solid #F2F2F2;
+
+}
+.lightbox_content input{
+	width:100%;
+}
+.lightbox_content input[type=text]{
+    padding: 9px;
+    margin-bottom: 16px;
+    font-size: 14px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Light, sans-serif;
+	line-height: 20px;
+	color: #9b9b9b;
+    border: 1px solid #ccc;
+}
+/*input[type=text]:focus {
+	box-shadow: none;
+}*/
+.lightbox_content input[type=submit]{
+	display: block;
+	width: 29%;
+	background-color: #f5a623;
+	color: #fff;
+	padding: 9px 38px;
+	margin: 0 auto;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+	border:none;
+	transition: 300ms;
+}
+.lightbox_content input[type=submit]:hover{
+	background-color: #F9C15D;
+	}
+.lightbox_content input[type=submit]:active{
+	background-color: #C38B22;
+	}
+
+/*checkbox*/
+
+/* The container */
+.checkbox_container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+  .container {
+  display: block;
+  position: relative;
+  padding-left: 24px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+  font-family: PingFangTC-Light, sans-serif;
+  line-height: 20px;
+  color: #393E46;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  margin: 3px 0;
+  background-color: #fff;
+  border:1px solid #979797;
+}
+
+/* On mouse-over, add a grey background color */
+/*.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+*/
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #64BE00;
+  border:none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 5px;
+  top: 1px;
+  width: 3px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*checkbox end*/
+
+
+.lightbox_content p{
+	margin-top: 20px;
+	margin-bottom: 16px;
+	font-size: 16px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 22px;
+	color: #393E46;
+}
+
+.lightbox_content .link{
+	display: inline-block;
+	padding: 0 7px;
+}
+
+
+
+
+
