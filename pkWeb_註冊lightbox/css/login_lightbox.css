@@ -15,7 +15,6 @@
 	margin: 0 auto;
 	background-color: #fff;
 	width: 975px;
-	height: 916px;
 	z-index: 100;
 	box-shadow: 8px 8px 0 #F95959;
 
@@ -94,7 +93,7 @@
 	border-bottom: 3px solid #f5a623;
 }
 .input_group{
-	width: 49%;
+	width: 51%;
 	margin: 0 auto;
 	margin-top: 34px;
 	padding-bottom: 32px;
