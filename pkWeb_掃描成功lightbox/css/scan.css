@@ -1,0 +1,19 @@
+.lightbox{
+	top: 108px;
+}
+.lightbox_header p{
+	padding-top: 158px;
+	margin-top: 0;
+}
+.lightbox_header span{
+	display: block;
+	font-size: 20px;
+	font-family: PingFangTC-Medium, sans-serif;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	/*margin-top: 158px;*/
+}
+.lightbox_logo{
+	margin-top: 0;
+}

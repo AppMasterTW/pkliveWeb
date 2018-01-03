@@ -1,16 +1,4 @@
 
-.lightbox{
-	position:absolute;
-	top: 100px;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-	background-color: #fff;
-	width: 975px;
-	z-index: 100;
-	box-shadow: 8px 8px 0 #F95959;
-
-}
 .input_group{
 	text-align: left;
 }
