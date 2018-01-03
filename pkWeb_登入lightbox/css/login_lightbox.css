@@ -1,0 +1,78 @@
+.wrapper{
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	background-color: rgba(29, 29, 29, 0.76);
+	z-index: 99;
+}
+.login_lightbox{
+	position:absolute;
+	top: 100px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-color: #fff;
+	width: 975px;
+	height: 916px;
+	z-index: 100;
+	box-shadow: 8px 8px 0 #F95959;
+
+}
+.lightbox_header{
+	width: 100%;
+	height: 383px;
+	background: url(../image/login_lightbox/lightbox_bg@2x.png);
+	background-size: 100%;
+}
+.close img{
+	width: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 8px;
+}
+.lightbox_logo{
+	width: 247px;
+	margin-top: 127px;
+}
+
+.lightbox_header p{
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Light, sans-serif;
+	line-height: 22px;
+	text-align: center;
+	color: #fff;
+	margin-top: 16px;
+}
+.lightbox_content ul{
+	margin-top: 65px;
+}
+.lightbox_content ul li{
+	display: inline-block;
+	padding: 0 100px;
+	padding-bottom: 7px;
+}
+.lightbox_content ul li a{
+	font-size: 20px;
+	font-family: PingFangTC-Medium, sans-serif;
+	letter-spacing: 1.5px;
+	line-height: 28px;
+	text-align: center;
+	color: #cccccc;
+	
+}
+.lightbox_content .active a{
+	color: #f5a623;
+}
+
+
+
+
+
+
+
+
+
