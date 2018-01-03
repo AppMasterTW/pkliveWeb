@@ -15,7 +15,6 @@
 	margin: 0 auto;
 	background-color: #fff;
 	width: 975px;
-	height: 916px;
 	z-index: 100;
 	box-shadow: 8px 8px 0 #F95959;
 
@@ -167,21 +166,21 @@
 }
 
 /* Create a custom checkbox */
-  .container {
-  display: inline-block;
-  float: left;
-  position: relative;
-  padding-left: 24px;
-  cursor: pointer;
-  text-align: left;
-  font-size: 14px;
-  font-family: PingFangTC-Light, sans-serif;
-  line-height: 20px;
-  color: #393E46;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+.container {
+display: inline-block;
+float: left;
+position: relative;
+padding-left: 24px;
+cursor: pointer;
+text-align: left;
+font-size: 14px;
+font-family: PingFangTC-Light, sans-serif;
+line-height: 20px;
+color: #393E46;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
 }
 
 /* Hide the browser's default checkbox */
@@ -249,10 +248,14 @@
 	line-height: 22px;
 	color: #393E46;
 }
-
-.lightbox_content .link{
+.lightbox_content ul.link{
+	margin-bottom: 56px;
+	
+}
+.lightbox_content li.link{
 	display: inline-block;
 	padding: 0 7px;
+	
 }
 
 
