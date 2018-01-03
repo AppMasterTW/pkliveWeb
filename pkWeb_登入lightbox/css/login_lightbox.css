@@ -117,6 +117,13 @@
 /*input[type=text]:focus {
 	box-shadow: none;
 }*/
+.input_group a{
+	float: right;
+	color: #393E46;
+	font-size: 14px;
+    font-family: PingFangTC-Semibold, sans-serif;
+    line-height: 20px;
+}
 .lightbox_content input[type=submit]{
 	display: block;
 	width: 29%;
@@ -130,6 +137,7 @@
 	line-height: 20px;
 	border:none;
 	transition: 300ms;
+	margin-top: 33px;
 }
 .lightbox_content input[type=submit]:hover{
 	background-color: #F9C15D;
@@ -142,7 +150,7 @@
 
 /* The container */
 .checkbox_container {
-    display: block;
+    display: inline-block;
     position: relative;
     cursor: pointer;
     font-size: 22px;
@@ -160,7 +168,8 @@
 
 /* Create a custom checkbox */
   .container {
-  display: block;
+  display: inline-block;
+  float: left;
   position: relative;
   padding-left: 24px;
   cursor: pointer;
