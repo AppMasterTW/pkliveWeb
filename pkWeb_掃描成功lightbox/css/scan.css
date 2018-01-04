@@ -1,0 +1,77 @@
+.lightbox{
+	top: 108px;
+}
+.lightbox_header p{
+	padding-top: 158px;
+	margin-top: 0;
+}
+.lightbox_header span{
+	display: block;
+	font-size: 20px;
+	font-family: PingFangTC-Medium, sans-serif;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	/*margin-top: 158px;*/
+}
+.lightbox_logo{
+	margin-top: 0;
+}
+.lightbox_content p{
+	font-size: 16px;
+	font-family: PingFangTC-Light, sans-serif;
+	line-height: 22px;
+	margin-top: 18px;
+	margin-bottom: 3px;
+}
+.lightbox_content span{
+	font-size: 16px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 22px;
+	color: #F95959;
+	margin-right: 16px;
+}
+.lightbox_content img{
+	display: block;
+	margin:0 auto;
+}
+.lightbox_content a{
+	display: inline-block;
+	/*width: 29%;*/
+	background-color: #f5a623;
+	color: #fff;
+	padding: 9px 38px;
+	margin: 0 auto;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+	/*border:none;*/
+	transition: 300ms;
+	/*margin-top: 33px;*/
+	margin-bottom: 44px;
+}
+.lightbox_content a:hover{
+	background-color: #F9C15D;
+}
+.lightbox_content a:active{
+	background-color: #C38B22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

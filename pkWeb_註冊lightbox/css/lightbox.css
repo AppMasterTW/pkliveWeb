@@ -96,7 +96,7 @@
 	border-bottom: 3px solid #f5a623;
 }
 .input_group{
-	width: 49%;
+	width: 51%;
 	margin: 0 auto;
 	margin-top: 34px;
 	padding-bottom: 32px;
@@ -143,35 +143,17 @@
 }
 .lightbox_content input[type=submit]:hover{
 	background-color: #F9C15D;
-	}
+}
 .lightbox_content input[type=submit]:active{
 	background-color: #C38B22;
-	}
+}
 
 /*checkbox*/
 
-/* The container */
-.checkbox_container {
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* Hide the browser's default checkbox */
-.container input {
-    position: absolute;
-    opacity: 0;
-}
 
 /* Create a custom checkbox */
 .container {
 display: inline-block;
-float: left;
 position: relative;
 padding-left: 24px;
 cursor: pointer;
