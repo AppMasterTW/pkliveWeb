@@ -144,7 +144,7 @@ header{
 	border-bottom: 1px solid rgba(249,89,89,0.5);
 }
 .main_sub_nav.nav_user{
-	width: 200%;
+	width: 660%;
 }
 .main_sub_nav.nav_user li{
 	margin: 0 15px;
@@ -174,17 +174,157 @@ header{
     opacity: 1;
 }
 
-/*sub_nav end*/
 
-.main_nav_item:hover.main_nav_item>a{
-	color: #f95959;
+
+
+
+.user_info{
+	width: 75%;
+	margin: 0 auto;
+	text-align: left;
+}
+.user_info.info_1{
+	border-bottom: 1px solid rgba(249,89,89,0.5);
+	padding-top: 23px;
+	padding-bottom: 15px;
+}
+.info_1 .user_img{
+	width: 60px;
+	height: 60px;
+	background: url(../image/nav_user/user_img.png);
+	background-size: 100%;
+	border-radius: 20px;
+	box-shadow: 0 2px 4px 0px rgba(0,0,0,0.5);
+	display: inline-block;
+	vertical-align: middle;	
+}
+.info_1 h3{
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 22px;
+	margin-bottom: 2px;
+}
+.info_1 p{
+	padding: 0 8px;
+	background-color: #f95959;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+	display: inline-block;
+
+
+}
+.inner_info{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 16px;
+}
+.progress_bar{
+	display: inline-block;
+}
+.progress_bar .bar_border{
+	height: 8px;
+	width: 118px;
+	border:1px solid #f95959;
+	border-radius: 3px;
+	position:absolute;
+}
+.progress_bar .bar_content{
+	position: relative;
+	height: 8px;
+	width: 100px;
+	background-color:#f95959;
+	border-radius: 3px;
+}
+.info_2{
+	padding: 0 7px;
+}
+.info_2 span{
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+	display: inline-block;
+	margin-top: 8px;
+	margin-bottom: 9px;
+}
+
+.info_2 a{
+	padding: 0 7px;
+	color: #fff;
+	background-color: #f95959;
+	font-size: 14px;
+	letter-spacing: 1.5px;
 	font-family: PingFangTC-Medium, sans-serif;
-	}
+	line-height: 20px;
+	float: right;
+	margin-top: 10px;
+}
 
-.main_nav_item:hover.main_nav_item .user{
-	fill: #f95959;
+.view p{
+	font-size: 14px;
+	font-family: PingFangTC-Light, sans-serif;
+	line-height: px;
+	display: inline-block;
+
 }
-.clearfix{
-	clear: both;
+.info_2 .coin{
+	margin-right: 23px;
 }
-/*header end
+.info_2 .coin:before{
+	display: inline-block;
+	content: url(../image/nav_user/coin.svg);
+	padding-right: 8px;
+	/*transform: scale(0.8);*/
+}
+
+.info_2 .diamond:before{
+	content: "";
+  background-image:url(../image/nav_user/diamond.svg);
+  background-size: 100% 100%;
+  padding-right: 8px;
+  display: inline-block;
+
+  /*size of your image*/
+  height: 20px;
+  width:20px;
+
+  /*if you want to change the position you can use margins or:*/
+  position:relative;
+  /*top:0;*/
+}
+
+.info_3{
+	width: 87%;
+	height: auto;
+	margin: 21px;
+}
+.info_3 a{
+	padding: 10px 50px;
+	color: #fff;
+	background-color: #F5A623;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+}
+.info_3 a:hover{
+	background-color: #F9C15D;
+}
+.info_3 a:active{
+	background-color: #C38B22;
+}
+.info_3 a.main_btn{
+	background-color: #f95959;
+	padding: 10px 42px;
+	margin-left: 8px;
+}
+.info_3 a.main_btn:hover{
+	background-color: #FA8B8B;
+}
+.info_3 a.main_btn:active{
+	background-color: #C45555;
+}

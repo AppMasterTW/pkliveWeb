@@ -3,10 +3,20 @@
 .sec5{
 	width: 100%;
 	height: auto;
-	background: url(../image/PK BG@2x.png) cover;
 	color: #fff;
 	text-align: center;
 	position: relative;
+}
+.pkbg{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url(../image/pkbg.png) no-repeat top center;
+	background-size: 100%;
+	z-index: -1;
+	transform: translateY(-130px);
 }
 .sec5 ul{
 	margin-bottom: 26px;
@@ -135,10 +145,10 @@
 	transform: translateY(-15%);
 }
 .box_3:nth-child(1){
-	margin-top: 150px;
+	margin-top: 130px;
 }
 .box_3:nth-child(2){
-	margin-top: 150px;
+	margin-top: 130px;
 }
 
 /*sec5 end*/

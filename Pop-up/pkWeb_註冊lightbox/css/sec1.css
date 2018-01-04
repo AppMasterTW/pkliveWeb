@@ -8,10 +8,11 @@
 	color: #ffffff;
 	margin-top: 367px;
 }
-.main_slogan span{
+.main_slogan h1{
 	font-size: 48px;
-	font-weight: 600;
 	letter-spacing: 1px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 67px;
 }
 .main_slogan p{
 	margin-top: 16px;
