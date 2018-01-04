@@ -40,7 +40,6 @@ input.single_column{
 	width: 31%;
 	margin: 0 1%;
 }
-
 input.double_column{
 	width: 65.5%;
 	margin: 0 1%;
@@ -61,26 +60,12 @@ input.right_column{
 }
 .input_group .captcha{
 	height: 40px;
-	margin-left: 5px;
-}
-.submit_btn{
-	display: block;
-	margin-bottom: 80px;
 }
 .lightbox_content input[type=submit]{
 	margin-top: 16px;
-	display: inline-block;
+	display: block;
 }
-.lightbox_content input.main_btn{
-	background-color: #F95959;
-	margin-left: 24px;
-}
-.lightbox_content input.main_btn:hover{
-	background-color: #FA8B8B;
-}
-.lightbox_content input.main_btn:active{
-	background-color: #C45555;
-}
+
 
 
 
