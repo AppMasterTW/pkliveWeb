@@ -96,7 +96,7 @@
 	border-bottom: 3px solid #f5a623;
 }
 .input_group{
-	width: 49%;
+	width: 51%;
 	margin: 0 auto;
 	margin-top: 34px;
 	padding-bottom: 32px;
@@ -116,9 +116,17 @@
 	color: #9b9b9b;
     border: 1px solid #ccc;
 }
-/*input[type=text]:focus {
-	box-shadow: none;
-}*/
+input[type=text]:focus,input[type=password]:focus,textarea:focus{
+ 
+ transition:border linear .2s,box-shadow linear .2s;
+ -moz-transition:border linear .2s,-moz-box-shadow linear .2s;
+ -webkit-transition:border linear .2s,-webkit-box-shadow linear .2s;
+ outline:none;border-color:#9b9b9b;
+ box-shadow: inset 0 0 2px #9013FE;
+ -moz-box-shadow:inset 0 0 2px #9013FE;
+ -webkit-box-shadow:inset 0 0 2px #9013FE;
+ 
+}
 .input_group a{
 	float: right;
 	color: #393E46;
@@ -143,35 +151,17 @@
 }
 .lightbox_content input[type=submit]:hover{
 	background-color: #F9C15D;
-	}
+}
 .lightbox_content input[type=submit]:active{
 	background-color: #C38B22;
-	}
+}
 
 /*checkbox*/
 
-/* The container */
-.checkbox_container {
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* Hide the browser's default checkbox */
-.container input {
-    position: absolute;
-    opacity: 0;
-}
 
 /* Create a custom checkbox */
 .container {
 display: inline-block;
-float: left;
 position: relative;
 padding-left: 24px;
 cursor: pointer;
