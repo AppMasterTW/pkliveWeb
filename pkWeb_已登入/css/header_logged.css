@@ -137,7 +137,6 @@ header{
     opacity: 0;
     transition: transform 500ms cubic-bezier(0.895, 0.030, 0.685, 0.220),opacity 300ms;
 }
-
 .main_sub_nav li{	
 	padding: 16px 0;
 	margin: 0 35px;
@@ -145,6 +144,7 @@ header{
 }
 .main_sub_nav.nav_user{
 	width: 660%;
+	transform:translate(-75%,0) scale(0.8);
 }
 .main_sub_nav.nav_user li{
 	margin: 0 15px;
@@ -173,10 +173,15 @@ header{
     pointer-events: auto;
     opacity: 1;
 }
+.main_nav_item:hover .main_sub_nav.nav_user{
+    transform:translate(-75%,0) scale(1);
+    pointer-events: auto;
+    opacity: 1;
+}
 
 
 
-
+/*user*/
 
 .user_info{
 	width: 75%;
@@ -212,15 +217,16 @@ header{
 	font-size: 14px;
 	letter-spacing: 1.5px;
 	font-family: PingFangTC-Semibold, sans-serif;
-	line-height: 20px;
+	line-height: 16px;
 	display: inline-block;
-
+	margin-top: 4px;
 
 }
 .inner_info{
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 16px;
+
 }
 .progress_bar{
 	display: inline-block;
@@ -259,15 +265,16 @@ header{
 	font-size: 14px;
 	letter-spacing: 1.5px;
 	font-family: PingFangTC-Medium, sans-serif;
-	line-height: 20px;
+	line-height: 16px;
 	float: right;
 	margin-top: 10px;
+	vertical-align: middle;
 }
 
 .view p{
 	font-size: 14px;
 	font-family: PingFangTC-Light, sans-serif;
-	line-height: px;
+	line-height: 20px;
 	display: inline-block;
 
 }
@@ -277,33 +284,30 @@ header{
 .info_2 .coin:before{
 	display: inline-block;
 	content: url(../image/nav_user/coin.svg);
-	padding-right: 8px;
-	/*transform: scale(0.8);*/
+	margin-right: 8px;
+	height: 20px;
+  	width:20px;
+  	transform: scale(0.8);
+  	vertical-align: middle;
 }
 
 .info_2 .diamond:before{
-	content: "";
-  background-image:url(../image/nav_user/diamond.svg);
-  background-size: 100% 100%;
-  padding-right: 8px;
-  display: inline-block;
-
-  /*size of your image*/
-  height: 20px;
-  width:20px;
-
-  /*if you want to change the position you can use margins or:*/
-  position:relative;
-  /*top:0;*/
+	display: inline-block;
+	content: url(../image/nav_user/diamond.svg);
+	margin-right: 8px;
+	height: 20px;
+  	width:20px;
+  	transform: scale(0.8);
+  	vertical-align: middle;
 }
 
 .info_3{
 	width: 87%;
-	height: auto;
 	margin: 21px;
 }
 .info_3 a{
-	padding: 10px 50px;
+	padding: 10px 54px;
+	display: inline-block;
 	color: #fff;
 	background-color: #F5A623;
 	font-size: 14px;
@@ -319,7 +323,7 @@ header{
 }
 .info_3 a.main_btn{
 	background-color: #f95959;
-	padding: 10px 42px;
+	padding: 10px 39px;
 	margin-left: 8px;
 }
 .info_3 a.main_btn:hover{
