@@ -24,7 +24,7 @@ body{
 	top: 0;
 	width: 100%;
 	height:150%;
-	background: url(../image/bg.png) no-repeat top center;
+	background: url(../image/background_image/bg.png) no-repeat top center;
 	opacity: 0.49;
 	mix-blend-mode: luminosity;
 	background-size: cover;

@@ -7,7 +7,7 @@
 .sec_pklive{
 	width: 100%;
 	background-color: #fff;
-	background: url(../image/dot@2x.png) no-repeat ;
+	background: url(../image/background_image/sec_pklivebg.png) no-repeat ;
 	transform: translateY(-41px);
 	background-size: 100%;
 	color: #393e46;
@@ -42,7 +42,7 @@
 	padding-bottom: 74px;	
 }
 
-.box_1{
+.box_pklive{
 	display:inline-block;
 	vertical-align: middle;
 	width: 270px;
@@ -52,7 +52,7 @@
 	box-shadow: 5px 17px 25px 0 rgba(144, 19, 254, 0.15);
 	transition: 300ms;
 }
-.box_1.middle{
+.box_pklive.middle{
 	margin: 0 30px;
 	width: 300px;
 	height: 423px;
@@ -95,7 +95,7 @@
 	display: none;
 
 }
-.box_1:hover .content i{
+.box_pklive:hover .content i{
 	display: block;
 }
 
@@ -115,31 +115,31 @@
 	top: 0;
 	transition: 300ms;
 }
-.box_1:hover .mask{
+.box_pklive:hover .mask{
 	display: block;
 	transition: 300ms;
 }
-.box_1:hover .border{
+.box_pklive:hover .border{
 	display: block;
 	border: 2px solid #F95959;
 }
 
-.box_1:hover .content img{
+.box_pklive:hover .content img{
 	border-radius: 0;
 }
-.box_1:hover{
+.box_pklive:hover{
 	border-radius: 0 ;
 	background-color: #F95959;
 }
 
 
-.box_1 .intro{
+.box_pklive .intro{
 	color: #393e46;
 	text-align: left;
 	padding-left: 14px;
 	padding-top:12px;
 }
-.box_1:hover .intro{
+.box_pklive:hover .intro{
 	color: #fff;
 }
 .intro span{

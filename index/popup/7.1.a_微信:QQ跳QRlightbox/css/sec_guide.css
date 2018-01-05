@@ -18,14 +18,12 @@
 
 .timeline{
 	width: 88.8%;
-	/*height: auto;*/
-	/*background-color: #393e46;*/
 	text-align: left;
 	margin: 0 auto;
 	margin-top: 45px;
 	border-top: 3px  #F95959 solid;
 }
-.box_2{
+.box_guide{
 	text-align: left;
 	width: 29%;
 	transform: translateY(-13px);
@@ -34,15 +32,15 @@
 	vertical-align: middle;
 }
 
-.box_2.first{
+.box_guide.first{
 	margin-left:0.8%;
 }
-.box_2 .intro{
+.box_guide .intro{
 	text-align: left;
 	margin-top: 25px;
 	margin-bottom:9px;
 }
-.box_2 .intro span{
+.box_guide .intro span{
 	font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 1.5px;
@@ -51,12 +49,12 @@
 	color: #f95959;
 
 }
-.box_2 .intro p{
+.box_guide .intro p{
 	margin-top: 4px;
 	text-align: left;
 	color: #ffffff;
 } 
-.box_2 img{
+.box_guide img{
 	width: 100%;
 	object-fit: cover;
 	height: 162px;
@@ -66,7 +64,7 @@ img.pin{
 	height: 28px;
 }
 
-.box_2 a{
+.box_guide a{
 	font-family: PingFangTC-Semibold, sans-serif;
 	margin-top: 9px;
 	font-size: 14px;
@@ -77,11 +75,11 @@ img.pin{
 	padding: 15px 0;
 	transition: 200ms;
 }
-.box_2 a:hover{
+.box_guide a:hover{
 	background-color: #FA8B8B;
 	color: #fff;
 }
-.box_2 a:active {
+.box_guide a:active {
     background-color: #C45555;
 }
 .sec_guide .angle{

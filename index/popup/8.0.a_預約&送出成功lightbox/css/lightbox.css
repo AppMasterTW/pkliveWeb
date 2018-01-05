@@ -161,6 +161,7 @@ input[type=text]:focus,input[type=password]:focus,textarea:focus{
 
 /* Create a custom checkbox */
 .container {
+float: left;
 display: inline-block;
 position: relative;
 padding-left: 24px;
@@ -229,7 +230,6 @@ user-select: none;
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
 /*checkbox end*/
 
 
