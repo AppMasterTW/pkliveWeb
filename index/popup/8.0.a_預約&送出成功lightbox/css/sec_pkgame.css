@@ -70,7 +70,6 @@
 }
 .box_pkgame img{
 	width: 100%;
-	object-fit: cover;
 	background-color: #d8d8d8;
 	box-shadow: 0 3px 6px 0 rgba(102, 102, 102, 0.3);
 
@@ -78,32 +77,42 @@
 .box_pkgame .intro{
 	margin: 0 auto;
 	background-color: #fff;
-	transform: translateY(-49px);
+	transform: translateY(-50px);
 	width: 90%;
 	text-align: left;
 	padding: 0 13px;
-	padding-top: 14px;
+	padding-top: 11px;
 	padding-bottom: 36px;
 	box-shadow: 5px 17px 25px 0 rgba(0, 0, 0, 0.12);
 }
-.box_pkgame .intro span{
+.box_pkgame .intro h4{
 	font-family: PingFangTC-Medium, sans-serif;
 	line-height: 28px;
 	font-size: 20px;
 	color: #f95959;
 	margin-bottom: 7px;
 }
-.box_pkgame .intro span::after{
+.box_pkgame .intro h4 span{
+	font-size: 20px;
+	line-height: 33px;
+}
+.box_pkgame .intro h4::after{
 	height: 3px;
-	/*width: 100%;*/
 	display: block;
-	margin-top: 3px;
+	/*margin-top: 2px;*/
 	margin-bottom: 12px;
 	border-radius: 6px;
 	content: "";
 	background-color: #f95959;
 	transform: translateX(-21px);
 	box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.2);
+}
+.box_pkgame .intro span.name{
+	font-family: PingFangTC-Medium, sans-serif;
+	line-height: 28px;
+	font-size: 20px;
+	color: #f95959;
+	/*margin-bottom: 7px;*/
 }
 .box_pkgame .intro p{
 	font-size: 16px;
