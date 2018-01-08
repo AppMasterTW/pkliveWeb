@@ -51,6 +51,7 @@
 .pkgame_intro{
 	position: absolute;
 	width: 44%;
+	right: 0;
 	box-sizing: border-box;
 	font-size: 14px;
 	font-family: PingFangTC-Semibold, sans-serif;
@@ -140,11 +141,11 @@
 }
 
 .box_pkgame:nth-child(odd){
-	transform: translateY(-15%);
+	/*transform: translateY(-15%);*/
 	margin-left: 6%;
 }
 .box_pkgame:nth-child(even){
-	/*transform: translateY(-15%);*/
+	transform: translateY(-15%);
 	margin-right: 6%;
 }
 
