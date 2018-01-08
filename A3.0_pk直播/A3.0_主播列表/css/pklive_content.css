@@ -2,6 +2,8 @@
 	margin-top: 90px;
 	padding-top: 65px;
 	/*text-align: center;*/
+	background:url(../image/dotsBg.png);
+	background-size: 100%;
 }
 .main_title{
 	color: #F95959;
@@ -22,7 +24,7 @@ p.hashtag:before{
   	width:30px;
   	vertical-align: middle;
 	}
-p.hashtag span{
+p.hashtag a{
 	font-size: 14px;
 	font-family: PingFangTC-Light, sans-serif;
 	line-height: 20px;
@@ -30,7 +32,7 @@ p.hashtag span{
 	padding: 0 13px;
 	color: #898989;
 }
-p.hashtag span:first-child{
+p.hashtag a:first-child{
 	padding-left: 7px;
 	}
 .main_title:before{
@@ -51,17 +53,6 @@ p.hashtag span:first-child{
 	vertical-align: middle;
 	margin-left: 8px;
 }
-
-
-/*.sec_pklive{
-	width: 100%;
-	background-color: #fff;
-	background: url(../image/background_image/sec_pklivebg.png) no-repeat ;
-	transform: translateY(-41px);
-	background-size: 100%;
-	color: #393e46;
-}
-*/
 .box_wrapper{
 	margin-top: 48px;
 }
@@ -70,21 +61,18 @@ p.hashtag span:first-child{
 	vertical-align: middle;
 	width: 250px;
 	height: 357px;
-	margin: 0 30px;
-	margin-bottom: 76px;
+	margin: 0 15px;
+	margin-bottom: 60px;
 	border-radius: 5px 0 0 0 ;
 	background-color: #ffffff;
 	box-shadow: 5px 17px 25px 0 rgba(144, 19, 254, 0.15);
 	transition: 300ms;
 }
-.box_pklive.middle{
-	margin: 0 30px;
-	width: 300px;
-	height: 423px;
+.box_pklive:nth-child(even){
+	transform: translateY(21px);
 }
 .img_wrapper{
 	height: 80%;
-	/*text-align: right;*/
 	position: relative;
 	transition: 300ms;
 }
@@ -95,8 +83,6 @@ p.hashtag span:first-child{
 	background-position: center center;
 	border-radius: 5px 0 0 0;
 }
-
-
 .img_wrapper p{
 	background-color: #9013FE;
 	color: #fff;
@@ -109,11 +95,9 @@ p.hashtag span:first-child{
 	top:0; 
 	right: 0;
 }
-
 .img_wrapper p.active{
-	background-color: ##F95959;
+	background-color: #F95959;
 }
-
 .img_wrapper i{
 	display: inline-block;
 	font-size: 60px;
@@ -129,8 +113,6 @@ p.hashtag span:first-child{
 .box_pklive:hover .img_wrapper i{
 	display: block;
 }
-
-
 .img_wrapper .mask{
 	width: 100%;
 	height: 100%;
@@ -184,23 +166,27 @@ p.hashtag span:first-child{
 	font-size: 16px;
 	font-weight: 300;	
 }
-.sec_pklive .btn{
-	display:inline-block;
-	background-color: #F95959;
-	font-size: 14px;
-	font-weight: 600;
-	text-align: center;
-	color: #ffffff;
-	padding: 14px 38px;
-	margin-top: 41px;
-	transition: 200ms;
-	
-}
-.sec_pklive .btn:hover{
-	background-color: #FA8B8B;
-	color: #fff;
-	}
-.sec_pklive .btn:active {
-    background-color: #C45555;
-}
 
+.pageControls{
+	margin-bottom: 64px;
+	margin-top: 10px;
+}
+.pageControls a{
+	display: inline-block;
+	padding: 6px 11px;
+	margin: 0 16px;
+	color: #F5A623;
+	background-color: #F2F2F2;
+	font-family: PingFangTC-Semibold, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+.pageControls a.active{
+	color: #fff;
+	background-color:#F5A623;
+	}
+
+.pageControls img{
+	transform: rotate(90deg);
+	vertical-align: middle;
+}

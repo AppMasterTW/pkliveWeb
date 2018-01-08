@@ -135,7 +135,7 @@ header{
     right: 0;
     background-color: #f95959;
     height: 3px;
-    transition: 500ms;
+    
 }
 .main_nav_item:nth-child(5){
 	padding: 15px 9px;
