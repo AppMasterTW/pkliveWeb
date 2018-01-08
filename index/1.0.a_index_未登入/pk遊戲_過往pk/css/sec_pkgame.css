@@ -73,9 +73,7 @@
 
 .box_pkgame .overlay{
 	width: 100%;
-	height: 256px;	
-	background: url(../image/box_pkgame/142200oprr0twrorb53pk9@2x.png);
-	background-size: 100%;
+	height: 256px;
 	box-shadow: 0 3px 6px 0 rgba(102, 102, 102, 0.3);
 }
 .box_pkgame .overlay .inner{
