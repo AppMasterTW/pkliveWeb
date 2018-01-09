@@ -37,8 +37,6 @@
 	margin-top: 48px;
 	padding-bottom: 48px;
 }
-
-
 .box_pklive{
 	display:inline-block;
 	vertical-align: middle;
@@ -52,11 +50,13 @@
 .box_pklive.middle{
 	margin: 0 30px;
 	width: 300px;
-	height: 423px;
+	height: 424px;
 }
+.box_pklive.middle .intro>p{
+	margin-top: 12px;
+	}
 .img_wrapper{
-	height: 80%;
-	/*text-align: right;*/
+	height: 70%;
 	position: relative;
 	transition: 300ms;
 }
@@ -67,7 +67,6 @@
 	background-position: center center;
 	border-radius: 5px 0 0 0;
 }
-
 .img_wrapper p{
 	background-color: #9013FE;
 	color: #fff;
@@ -135,8 +134,10 @@
 .box_pklive .intro{
 	color: #393e46;
 	text-align: left;
-	padding-left: 14px;
-	padding-top:12px;
+	padding: 0 11px;
+	padding-top:4px;
+	position: relative;
+	top: -35px;
 }
 .box_pklive:hover .intro{
 	color: #fff;
@@ -146,13 +147,76 @@
 	font-size: 12px;
 	line-height: 17px;
 	text-align: left;
+
 }
+.intro span::before{
+	content: "";
+	/*position: relative;*/
+	background-color: red;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: url(../image/user_img.png);
+	background-size: 100%;
+	border-radius: 20px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+	margin-right: 8px;
+	}
 .intro p{
 	font-family: PingFangTC-Semibold, sans-serif;
 	margin-top: 5px;
 	font-size: 16px;
 	line-height: 22px;
 }
+.intro .detail{
+	text-align: center;
+	margin-top: 11px;
+}
+.detail p{
+	display: inline-block;
+	vertical-align: middle;
+	/*padding: 0 6px;*/
+	margin-top: 0;
+	padding-left: 2px;
+	font-family: PingFangTC-Light, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	color: #9B9B9B;
+}
+.detail p.time{
+	margin-right: 8px;
+}
+/*.detail svg{
+	padding-right: 2px;
+	}
+*/.detail path{
+	fill: #9b9b9b;
+}
+/*.detail p.time::before{
+	content: url(../image/ICON/time.svg);
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+*//*.detail p.views::before{
+	content: "";
+	background: url(../image/ICON/views.svg);
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 20px;
+}*/
+.box_pklive:hover .detail p{
+	color: rgba(255,255,255,0.5);
+	}
+.box_pklive:hover .detail path{
+	fill: rgba(255,255,255,0.5);
+	}
+
+/*angle*/
 .angle i{
 	font-size: 40px;
 }
@@ -173,6 +237,9 @@
 .box_wrapper .angle_right:hover{
 	transform: translateX(10px);
 }
+/*angle end*/
+
+
 .pageControls{
 	margin-bottom: 64px;
 	margin-top: 10px;
