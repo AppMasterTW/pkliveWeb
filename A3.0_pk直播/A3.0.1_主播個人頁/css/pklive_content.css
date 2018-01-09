@@ -31,8 +31,7 @@
 	margin-top: 15px;
 	vertical-align: top;
 }
-.profile_photo,.profile_info{/*
-	transform: translate(-34px,-48px);*/
+.profile_photo,.profile_info{
 	position: relative;
 	top: -48px;
 	left: -34px;
@@ -95,8 +94,9 @@ p.hashtag a:first-child{
 p.hashtag a:hover{
 	color:#F95959;
 	}
-.live_profile_wrapper{
+.profile{
 	position: relative;
+	height: 209px;
 }
 .btnsec_1{
 	position: absolute;
@@ -117,6 +117,7 @@ p.hashtag a:hover{
 }
 .btnsec_1 a.active{
 	background-color:#9013FE;
+	margin-right: 23px;
 }
 .btnsec_1 a.active:hover{
 	background-color: #B252FF;
@@ -124,12 +125,34 @@ p.hashtag a:hover{
 .btnsec_1 a.active:active{
 	background-color: #7C13CB;
 }
+.btnsec_2{
+	position: absolute;
+	right: 23px;
+	bottom: 25px;
+}
+.btnsec_2 a{
+	padding: 5px 21px;
+	color: #fff;
+	background-color:  #F7A700;
+	transition: 300ms;
+}
+.btnsec_2 a:hover{
+	background-color: #F9C15D;
+}
+.btnsec_2 a:active{
+	background-color: #C38B22;
+}
+.btnsec_2 a.second{
+	margin-left: 19px;
+	}
+
 
 
 /*gift*/
 .gift{
 	text-align: center;
 	padding-bottom: 17px;
+	margin-top: 25px;
 }
 .gift .gift_img{
 	display: inline-block;
@@ -138,6 +161,10 @@ p.hashtag a:hover{
 	padding: 5px;
 	margin-right: 15px;
 	vertical-align: middle;
+	transition: 300ms;
+}
+.gift .gift_img:hover{
+	transform: scale(1.1);
 }
 .gift_img:nth-child(13){
 	margin-right: 0;
@@ -163,6 +190,7 @@ p.hashtag a:hover{
 .gift .angle_right{
 	margin-left: 10px;
 	}
+
 /*gift end*/
 /*live_profile end*/
 
