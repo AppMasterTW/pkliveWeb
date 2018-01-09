@@ -160,14 +160,14 @@
 	color:#F95959;	
 }
 .box_wrapper .angle_left{
-	padding-right: 6.5%;
+	padding-right:4.5%;
     transition: 300ms;
 }
 .box_wrapper .angle_left:hover{
 	transform: translateX(-10px);
 }
 .box_wrapper .angle_right{
-	padding-left: 6.5%;
+	padding-left:4.5%;
 	transition: 300ms;
 }
 .box_wrapper .angle_right:hover{
