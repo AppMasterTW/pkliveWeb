@@ -1,8 +1,6 @@
 header{
 	width: 100%;
-	
 	position: absolute;
-	background-color: #fff;
 	top: 0;
 }
 .top_header{
@@ -56,6 +54,7 @@ header{
 }
 .main_header{
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.14);
+	background-color: #fff;
 }
 .logo{
 	float: left;

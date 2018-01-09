@@ -9,7 +9,8 @@
 /*live_profile*/
 
 .live_profile_wrapper{
-	width: 77%;
+	/*width: 77%;*/
+	width: 85%;
 	background-color: #fff;
 	margin: 0 auto;
 	text-align: left;
@@ -17,9 +18,7 @@
 
 }
 .profile_photo{
-	background: url(../image/Profile_photo.png);
-	background-size: cover;
-	background-position: top right;
+	background: url(../image/Profile_photo.png) no-repeat top right/cover;
 	display: inline-block;
 	width: 250px;
 	height: 250px;
@@ -88,13 +87,49 @@ p.hashtag a{
 	margin-bottom: 0;
 	padding: 0 4px;
 	color: #898989;
+	transition: 300ms;
 }
 p.hashtag a:first-child{
 	padding-left: 7px;
 	}
+p.hashtag a:hover{
+	color:#F95959;
+	}
+.live_profile_wrapper{
+	position: relative;
+}
+.btnsec_1{
+	position: absolute;
+	top: 24px;
+	right:-31px;
+}
+.btnsec_1 a{
+	background-color:#F95959;
+	color: #fff;
+	padding: 4px 39px;
+	transition: 300ms;
+}
+.btnsec_1 a:hover{
+	background-color: #FA8B8B;
+}
+.btnsec_1 a:active{
+	background-color: #C45555;
+}
+.btnsec_1 a.active{
+	background-color:#9013FE;
+}
+.btnsec_1 a.active:hover{
+	background-color: #B252FF;
+}
+.btnsec_1 a.active:active{
+	background-color: #7C13CB;
+}
 
+
+/*gift*/
 .gift{
 	text-align: center;
+	padding-bottom: 17px;
 }
 .gift .gift_img{
 	display: inline-block;
@@ -104,9 +139,9 @@ p.hashtag a:first-child{
 	margin-right: 15px;
 	vertical-align: middle;
 }
-a.gift_img:last-child{
+.gift_img:nth-child(13){
 	margin-right: 0;
-	}
+}
 .gift img{
 	width: 60px;
 	height: 60px;
@@ -121,6 +156,14 @@ a.gift_img:last-child{
 	vertical-align: middle;
 	line-height: 70px;
 }
+.gift .angle_left{
+	margin-right: 10px;
+	}
+
+.gift .angle_right{
+	margin-left: 10px;
+	}
+/*gift end*/
 /*live_profile end*/
 
 
@@ -426,9 +469,6 @@ a.more_btn:active{
 }
 
 /*live photo end*/
-
-
-
 
 
 
