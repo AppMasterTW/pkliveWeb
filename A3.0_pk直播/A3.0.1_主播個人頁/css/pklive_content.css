@@ -1,6 +1,6 @@
 .content_wrapper{
 	margin-top: 90px;
-	/*text-align: center;*/
+	text-align: center;
 	background:url(../image/dotsBg.png);
 	background-size: 100%;
 }
@@ -52,6 +52,14 @@
 	line-height: 33px;
 	margin-left: 0;
 }
+.profile_info .title span.locate::before{
+	content:url(../image/ICON/locate.svg);
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	display: inline-block;
+	/*background: url(../image/ICON/locate.svg);*/
+	}
 .profile_info .intro{
 	font-size: 16px;
 	font-family: PingFangTC-Light, sans-serif;
@@ -76,8 +84,8 @@ p.hashtag:before{
 	content: url(../image/ICON/tag.svg);
 	display: inline-block;
 	height: 30px;
-  width:30px;
-  vertical-align: middle;
+  	width:30px;
+  	vertical-align: middle;
 	}
 p.hashtag a{
 	font-size: 14px;
@@ -106,8 +114,18 @@ p.hashtag a:hover{
 .btnsec_1 a{
 	background-color:#F95959;
 	color: #fff;
-	padding: 4px 39px;
+	padding: 4px 18px;
+	vertical-align: middle;
 	transition: 300ms;
+}
+.btnsec_1 a::before{
+	content: url(../image/ICON/game.svg);
+	display: inline-block;
+	height: 30px;
+  	width:30px;
+  	vertical-align: middle;
+  	position: relative;
+  	top: -2px;
 }
 .btnsec_1 a:hover{
 	background-color: #FA8B8B;
@@ -118,6 +136,13 @@ p.hashtag a:hover{
 .btnsec_1 a.active{
 	background-color:#9013FE;
 	margin-right: 23px;
+}
+.btnsec_1 a.active::before{
+	content: url(../image/ICON/tv.svg);
+	display: inline-block;
+	height: 30px;
+  	width:30px;
+  	vertical-align: middle;
 }
 .btnsec_1 a.active:hover{
 	background-color: #B252FF;
@@ -146,50 +171,129 @@ p.hashtag a:hover{
 	margin-left: 19px;
 	}
 
-
-
 /*gift*/
-.gift{
+.gift_bar{
 	text-align: center;
 	padding-bottom: 17px;
 	margin-top: 25px;
 }
-.gift .gift_img{
+.gift_item{
 	display: inline-block;
-	background-color: #F7F4F4;
-	border-radius: 2px;
-	padding: 5px;
+	transition: 300ms;
+}
+.gift_icon{
 	margin-right: 15px;
 	vertical-align: middle;
 	transition: 300ms;
+	position: relative;
 }
-.gift .gift_img:hover{
-	transform: scale(1.1);
-}
-.gift_img:nth-child(13){
+.gift_icon:nth-child(13){
 	margin-right: 0;
 }
-.gift img{
+.gift_icon img{
 	width: 60px;
 	height: 60px;
+	background-color: #F7F4F4;
+	border-radius: 2px;
+	padding: 5px;
 	vertical-align: middle;
+	transition: 300ms;
 }
-.gift .angle{
+.gift_icon:hover.gift_icon img{
+	/*transform: scale(1.1);*/
+	transform: translateY(-5px);
+}
+.gift_bar .angle{
 	line-height: 70px;
 }
-.gift .angle i{
+.gift_bar .angle i{
 	font-size: 30px;
 	color: #9b9b9b;
 	vertical-align: middle;
 	line-height: 70px;
 }
-.gift .angle_left{
+.gift_bar .angle_left{
 	margin-right: 10px;
 	}
 
-.gift .angle_right{
+.gift_bar .angle_right{
 	margin-left: 10px;
 	}
+
+
+/*gift hover*/
+.gift_detail{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background: url(../image/gift/giftBg.png);
+	width: 343px;
+	height: 145px;
+	position: absolute;
+	box-shadow: 0 0 10px 0  rgba(144,19,254,0.26);
+	text-align: left;
+	padding:33px 10px 22px 16px;
+	transform: scale(0);
+	transform-origin: top left;
+	transition: 500ms;
+}
+/*.gift_detail::after{
+	content:
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}*/
+.gift_item:hover .gift_detail{
+	transform: scale(1);
+	display: block;
+}
+.gift_img{
+	background: url(../image/gift/1@2x.png) no-repeat center center;
+	background-size: 67%;
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	padding: 15px;
+	background-color: #F2F2F2;
+	box-shadow: 0 2px 4px 0 rgba(155,155,155,0.50);
+	border-radius: 40px;
+	vertical-align: top;
+}
+.gift_info{
+	display: inline-block;
+	margin-left: 17px;
+	color: #393E46;
+	font-size: 16px;
+}
+.gift_info p{
+	font-family: PingFangTC-Light;
+	letter-spacing: 1.5px;
+	vertical-align: top;
+}
+.gift_info span{
+	display: block;
+	font-family: PingFangTC-Semibold;
+	
+}
+.gift_info span.amount{
+	font-family: PingFangTC-Light;
+	font-size: 14px;
+	margin-bottom: 17px;
+	margin-top: 4px;
+	}
+.gift_info span.amount::before{
+	content: url(../image/ICON/diamond.svg);
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	margin-right: 4px;
+}
+
+/*gift hover end*/
+
+
 
 /*gift end*/
 /*live_profile end*/
