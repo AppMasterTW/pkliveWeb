@@ -570,6 +570,8 @@ a.more_btn{
 	line-height: 20px;
 	margin-bottom: 60px;
 	margin-top: 35px;
+	z-index: 1;
+	position: relative;
 }
 a.more_btn:hover{
 	background-color: #F9C15D;
