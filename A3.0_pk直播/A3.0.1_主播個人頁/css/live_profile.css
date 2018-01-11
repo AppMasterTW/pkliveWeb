@@ -196,10 +196,11 @@ p.hashtag a:hover{
 	padding: 5px;
 	vertical-align: middle;
 	transition: 300ms;
+	transform-origin: center bottom;
 }
 .gift_icon:hover.gift_icon img{
-	/*transform: scale(1.1);*/
-	transform: translateY(-5px);
+	transform: scale(1.2);
+	/*transform: translateY(-5px);*/
 }
 .gift_bar .angle{
 	line-height: 70px;
@@ -227,21 +228,26 @@ p.hashtag a:hover{
 /*gift hover*/
 .gift_detail{
 	width: 343px;
-	height: 145px;
-	background-color: transparent;
-	position: absolute;
+	height: 135px;
+	background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(144,19,254,0.26);
+    position: absolute;
 	text-align: left;
 	transform: scale(0);
 	transform-origin: top left;
 	transition: 500ms;
+	margin-top: 12px;
 }
-.gift_detail img{
-	width:100%;
-	height: 100%;
-	background-color: transparent;
+.gift_detail::before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 12px solid #fff;
 	position: absolute;
-	box-shadow: 0 0 10px 0  rgba(144,19,254,0.26);
-	z-index: -1;
+	top: -12px;
+	left: 27px;
 }
 .gift_item:hover .gift_detail{
 	transform: scale(1);
@@ -258,7 +264,7 @@ p.hashtag a:hover{
 	box-shadow: 0 2px 4px 0 rgba(155,155,155,0.50);
 	border-radius: 40px;
 	vertical-align: top;
-	margin-top: 33px;
+	margin-top: 22px;
 	margin-left: 16px;
 }
 .gift_info{
@@ -266,7 +272,7 @@ p.hashtag a:hover{
 	margin-left: 17px;
 	color: #393E46;
 	font-size: 16px;
-	margin-top: 33px;
+	margin-top: 22px;
 }
 .gift_info p{
 	font-family: PingFangTC-Light;
