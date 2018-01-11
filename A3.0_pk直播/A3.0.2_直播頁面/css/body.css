@@ -1,5 +1,4 @@
 *{
-	
 	font-family: PingFangTC-Ultralight, sans-serif;
 	font-family: PingFangTC-Light, sans-serif;
 	font-family: PingFangTC-Thin, sans-serif;
@@ -15,7 +14,7 @@
     box-sizing: border-box;
 }
 body{
-	background:#F8F8F8;
+	background: linear-gradient(to right, #4b067c, #1d1d1d);
 	text-align: center;
 }
 
