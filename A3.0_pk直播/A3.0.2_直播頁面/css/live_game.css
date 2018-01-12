@@ -39,7 +39,11 @@
 	color: #F2F2F2;
 	line-height: 20px;
 	margin-right: 20px;
+	transition: 300ms;
 }
+.moreinfo a:hover{
+	color: #9b9b9b;
+	}
 .moreinfo a:nth-child(3){
 	margin-right: 0;
 }
