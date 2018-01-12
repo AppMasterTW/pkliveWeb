@@ -175,6 +175,9 @@ p.hashtag a:hover{
 	padding-bottom: 17px;
 	margin-top: 25px;
 }
+.gift_item_wrapper{
+	overflow: hidden;
+}
 .gift_item{
 	display: inline-block;
 	transition: 300ms;

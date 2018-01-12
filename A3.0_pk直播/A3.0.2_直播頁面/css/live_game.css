@@ -1,0 +1,70 @@
+/* 直播互動遊戲: */
+.livegame_wrapper{
+	background: #393E46;
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 70px 87px;
+}
+.livegame_wrapper h3{
+font-family: PingFangTC-Semibold;
+font-size: 24px;
+color: #F95959;
+letter-spacing: 1.5px;
+}
+.game_content{
+}
+.game_content h4{
+	font-family: PingFangTC-Medium;
+	font-size: 20px;
+	color: #FFFFFF;
+	letter-spacing: 1.5px;
+}
+.game_content span{
+	font-family: PingFangTC-Light;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.optionBox_wrapper{
+	margin:0 auto;
+}
+.optionBox{
+	background-color: #fff;
+	border:1px solid #F5A623;
+	margin:0 5px;
+	/*margin:18px 6px;*/
+	display: inline-block;
+}
+.optionBox:nth-child(3n+1){
+	margin-left: 0;
+	}
+.optionBox:nth-child(3n){
+	margin-right: 0;
+	}
+.optionBox div{
+	vertical-align: middle;
+	display: inline-block;
+}
+.optionBox p{
+	padding: 10px 16px;
+	color: #F5A623;
+	font-size: 14px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+
+	}
+.optionBox a{
+	float: right;
+	padding: 10px 16px;
+	background-color: #F5A623;
+	color: #fff;
+	font-size: 14px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+}
+.optionBox a:hover{
+	background-color: #FFCC66;
+}
+.optionBox a:active{
+	background-color: #996600;
+}
