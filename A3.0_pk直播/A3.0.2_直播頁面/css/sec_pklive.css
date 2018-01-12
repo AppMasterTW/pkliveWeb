@@ -1,5 +1,7 @@
 .sec_pklive{
 	background-color: #fff;
+	position: relative;
+	top: -99px;
 }
 .sec_pklive .slogan{
 	padding-top: 159px;

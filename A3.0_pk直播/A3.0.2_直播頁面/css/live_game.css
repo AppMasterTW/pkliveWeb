@@ -3,64 +3,128 @@
 	background: #393E46;
 	width: 90%;
 	margin: 0 auto;
-	text-align: left;
-	padding: 70px 87px;
+	text-align:left;
+	/*padding: 70px 87px;*/
+	padding: 3%;
+	position:relative;
+	z-index: 100;
+}
+.livegame_wrapper svg{
+	display: inline-block;
+	vertical-align: middle;
 }
 .livegame_wrapper h3{
-font-family: PingFangTC-Semibold;
-font-size: 24px;
-color: #F95959;
-letter-spacing: 1.5px;
+	font-family: PingFangTC-Semibold;
+	font-size: 24px;
+	color: #F95959;
+	letter-spacing: 1.5px;
+	text-align: left;
+	display: inline-block;
+	vertical-align: middle;
+}
+.titleBar{
+	padding-bottom: 1px;
+	border-bottom: 2px solid #F95959;
+	margin-bottom: 18px;
+}
+.moreinfo{
+	display: inline-block;
+	float: right;
+}
+.moreinfo a{
+	/*float: right;*/
+	display: inline-block;
+	font-family: PingFangTC-Light;
+	font-size: 14px;
+	color: #F2F2F2;
+	line-height: 20px;
+	margin-right: 20px;
+}
+.moreinfo a:nth-child(3){
+	margin-right: 0;
+}
+.moreinfo svg{
+	margin-left: 1px;
+}
+.moreinfo a:nth-child(3)>svg{
+	transform: rotate(90deg);
 }
 .game_content{
+	margin: 0 auto;
+	text-align: left;
+	background: rgba(144,19,254,0.24);
+	padding: 2%;
 }
 .game_content h4{
 	font-family: PingFangTC-Medium;
 	font-size: 20px;
 	color: #FFFFFF;
-	letter-spacing: 1.5px;
+	line-height: 28px;
+	margin-bottom: 2px;
+	display: inline-block;
 }
-.game_content span{
+.game_content .intro span{
 	font-family: PingFangTC-Light;
 	font-size: 16px;
 	color: #FFFFFF;
+	margin-right: 22px;
 }
+.game_content .time{
+	float: right;
+	font-family: PingFangTC-Light;
+	font-size: 16px;
+	color: #F2F2F2;
+	line-height: 22px;
+	vertical-align: middle;
+	margin-right: 0;
+	/*display: inline-block;*/
+}
+.game_content span.time::before{
+	content: url(../image/ICON/time.svg);
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 4px;
+	}
+
 .optionBox_wrapper{
 	margin:0 auto;
+	margin-top: 29px;
 }
 .optionBox{
+	width: 280px;
 	background-color: #fff;
 	border:1px solid #F5A623;
-	margin:0 5px;
-	/*margin:18px 6px;*/
+	margin-right: 24px;
+	margin-bottom: 16px;
 	display: inline-block;
+
 }
-.optionBox:nth-child(3n+1){
-	margin-left: 0;
-	}
-.optionBox:nth-child(3n){
-	margin-right: 0;
-	}
-.optionBox div{
-	vertical-align: middle;
-	display: inline-block;
-}
+
 .optionBox p{
 	padding: 10px 16px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 50%;
 	color: #F5A623;
 	font-size: 14px;
 	font-family: PingFangTC-Semibold, sans-serif;
 	line-height: 20px;
-
+	text-align: center;
+	margin: 0 auto;
 	}
 .optionBox a{
+	vertical-align: middle;
+	display: inline-block;
 	float: right;
+	width: 45%;
 	padding: 10px 16px;
 	background-color: #F5A623;
 	color: #fff;
 	font-size: 14px;
 	font-family: PingFangTC-Semibold, sans-serif;
 	line-height: 20px;
+	transition: 300ms;
+	text-align: center;
 }
 .optionBox a:hover{
 	background-color: #FFCC66;
