@@ -90,11 +90,11 @@
 	margin-right: 4px;
 	}
 
-.optionBox_wrapper{
+.gamebox_wrapper{
 	margin:0 auto;
 	margin-top: 29px;
 }
-.optionBox{
+.gamebox{
 	width: 280px;
 	background-color: #fff;
 	border:1px solid #F5A623;
@@ -104,7 +104,7 @@
 
 }
 
-.optionBox p{
+.gamebox p{
 	padding: 10px 16px;
 	vertical-align: middle;
 	display: inline-block;
@@ -116,7 +116,7 @@
 	text-align: center;
 	margin: 0 auto;
 	}
-.optionBox a{
+.gamebox a{
 	vertical-align: middle;
 	display: inline-block;
 	float: right;
@@ -130,9 +130,9 @@
 	transition: 300ms;
 	text-align: center;
 }
-.optionBox a:hover{
+.gamebox a:hover{
 	background-color: #FFCC66;
 }
-.optionBox a:active{
+.gamebox a:active{
 	background-color: #996600;
 }
