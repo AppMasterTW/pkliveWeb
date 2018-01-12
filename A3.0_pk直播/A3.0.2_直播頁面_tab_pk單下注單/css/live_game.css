@@ -95,15 +95,15 @@
 	margin-top: 29px;
 }
 .gamebox{
-	width: 280px;
+	width: 300px;
 	background-color: #fff;
 	border:1px solid #F5A623;
 	margin-right: 24px;
 	margin-bottom: 16px;
 	display: inline-block;
-
+	position: relative;
 }
-.gamebox p{
+.gamebox>p{
 	padding: 10px 16px;
 	vertical-align: middle;
 	display: inline-block;
@@ -129,3 +129,73 @@
 	transition: 300ms;
 	text-align: center;
 }
+
+
+.detail{
+	width: 101%;
+	height: auto;
+	background-color: #FFFFFF;
+	/*border:1px solid #fff;*/
+	box-shadow: 0 0 10px 0 rgba(245,166,35,0.50);
+    position: absolute;
+    left: -1px;
+	text-align: left;
+	/*transform: scale(0);*/
+	transform-origin: top left;
+	transition: 500ms;
+	margin-top: 12px;
+	z-index: 99;
+	padding: 23px;
+}
+.detail::before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 12px solid #fff;
+	position: absolute;
+	top: -12px;
+	left: 27px;
+}
+.detail h5{
+	margin-bottom: 7px;
+	font-family: PingFangTC-Semibold;
+	font-size: 16px;
+	color: #393E46;
+	letter-spacing: 1.5px;
+	line-height: 22px;
+}
+.detail input[type=text]{
+	width: 100%;
+	border:1px solid rgba(197,197,197,0.25);
+	font-size: 14px;
+	padding: 9px;
+	font-family: PingFangTC-Light;
+	line-height: 20px;
+	color: #9b9b9b;
+	margin-bottom: 16px;
+
+}
+input[type=text]:focus,input[type=password]:focus,textarea:focus{
+ 
+ transition:border linear .2s,box-shadow linear .2s;
+ -moz-transition:border linear .2s,-moz-box-shadow linear .2s;
+ -webkit-transition:border linear .2s,-webkit-box-shadow linear .2s;
+ outline:none;border-color:#9b9b9b;
+ box-shadow: inset 0 0 2px #9013FE;
+ -moz-box-shadow:inset 0 0 2px #9013FE;
+ -webkit-box-shadow:inset 0 0 2px #9013FE;
+ 
+}
+.detail p{
+	font-family: PingFangTC-Light;
+	padding: 0;
+	font-size: 13px;
+	color: #393E46;
+	line-height: 22px;
+	display: inline-block;
+	text-align: left;
+	margin-right:10px; 
+}
+
