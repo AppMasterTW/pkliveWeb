@@ -103,7 +103,6 @@
 	display: inline-block;
 
 }
-
 .gamebox p{
 	padding: 10px 16px;
 	vertical-align: middle;
@@ -116,7 +115,7 @@
 	text-align: center;
 	margin: 0 auto;
 	}
-.gamebox a{
+.gamebox span{
 	vertical-align: middle;
 	display: inline-block;
 	float: right;
@@ -129,10 +128,4 @@
 	line-height: 20px;
 	transition: 300ms;
 	text-align: center;
-}
-.gamebox a:hover{
-	background-color: #FFCC66;
-}
-.gamebox a:active{
-	background-color: #996600;
 }

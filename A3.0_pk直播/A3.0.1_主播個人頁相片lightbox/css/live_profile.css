@@ -172,35 +172,47 @@ p.hashtag a:hover{
 /*gift*/
 .gift_bar{
 	text-align: center;
-	padding-bottom: 17px;
 	margin-top: 25px;
+}
+.gift_item_wrapper{
+	height: 100px;
+	display: inline-block;
+	text-align: center;
+	width: calc(95% - 44px);
+	overflow: hidden;
+	vertical-align: middle;
 }
 .gift_item{
 	display: inline-block;
 	transition: 300ms;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-top:15px; 
+}
+.gift_item:first-child{
+	margin-left: 10px;
 }
 .gift_icon{
-	margin-right: 15px;
 	vertical-align: middle;
 	transition: 300ms;
 	position: relative;
 }
-.gift_item:nth-child(13)>.gift_icon{
+/*.gift_item:nth-child(10)>.gift_icon{
 	margin-right: 0;
 }
-.gift_icon img{
-	width: 60px;
-	height: 60px;
-	background-color: #F7F4F4;
+*/.gift_icon img{
+	width: 70px;
+	height: 70px;
+	background: #f7f4f4;
+	border-radius: 2px;
 	border-radius: 2px;
 	padding: 5px;
 	vertical-align: middle;
-	transition: 300ms;
 	transform-origin: center bottom;
+	transition: 300ms;
 }
 .gift_icon:hover.gift_icon img{
 	transform: scale(1.2);
-	/*transform: translateY(-5px);*/
 }
 .gift_bar .angle{
 	line-height: 70px;
@@ -219,7 +231,7 @@ p.hashtag a:hover{
 	transform: translateX(-5px);
 }
 .gift_bar .angle_right{
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 	}
 .gift_bar .angle_right i:hover{
 	transform: translateX(5px);
