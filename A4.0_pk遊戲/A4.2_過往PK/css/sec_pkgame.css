@@ -69,49 +69,27 @@
 	background-color: #F9C15D;
 	color: #fff;
 	}
-.banner_area{
-	width:83%;
-	margin:0 auto;
-	text-align:left;
-	margin-bottom: 73px;
-	position: relative;
+.filter input{
+	width: 200px;
 }
-.banner_area .banner_image{
-	width: 75%;
-	background: url(../image/banner.png) top left no-repeat/cover;
-	height: 353px;
-	display: inline-block;
-	vertical-align: middle;
-	box-shadow: 5px 29px 25px 0 rgba(0,0,0,0.25);
+.filter input[type=text]{
+    padding: 9px;
+    margin-bottom: 16px;
+    font-size: 14px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Light, sans-serif;
+	line-height: 20px;
+	color: #9b9b9b;
+    border: 1px solid rgba(151,151,151,0.25);
 }
-.banner_area .box_pkgame.banner{
-	width: 34%;
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 0;
-	position: absolute;
-	top: 39px;
-	right: 0;
-	/*right: 50px;*/
-	/*left: -50px;*/
-}
-.box_pkgame.banner .intro{
-	width: 100%;
-	transform: none;
-	margin: 0;
-	text-align: left;
-	padding-bottom: 24px;
-}
-.box_pkgame.banner .intro p{
-	margin-bottom: 35px;
-	text-align: left;
-}
-.banner_area .intro div{
-	text-align: center;
-}
-.banner_area .box_pkgame.banner a{
-	transform: none;
-	transition: 300ms;
+.filter input[type=text]:focus,input[type=password]:focus,textarea:focus{
+	transition:border linear .2s,box-shadow linear .2s;
+	-moz-transition:border linear .2s,-moz-box-shadow linear .2s;
+	-webkit-transition:border linear .2s,-webkit-box-shadow linear .2s;
+	outline:none;border-color:#9b9b9b;
+	box-shadow: inset 0 0 2px #9013FE;
+	-moz-box-shadow:inset 0 0 2px #9013FE;
+	-webkit-box-shadow:inset 0 0 2px #9013FE;
 }
 
 /*sec_pkgame*/
@@ -152,18 +130,40 @@
 	margin: 0 auto;
 	position: relative;
 }
+.pkgame_intro{
+	position: absolute;
+	width: 44%;
+	right: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+	padding: 19px 51px;
+	display: inline-block;
+	text-align: left;
+	color: #f5a623;
+	border: 1px #f5a623 solid;
+	float: right;
+}
 
 .box_pkgame{
 	width: 44%;
 	height: auto;
 	display: inline-block;
+	position: relative;
 }
-.box_pkgame img{
-	width: 100%;
-	background-color: #d8d8d8;
-	box-shadow: 0 3px 6px 0 rgba(102, 102, 102, 0.3);
 
+.box_pkgame .overlay{
+	width: 100%;
+	height: 256px;
+	box-shadow: 0 3px 6px 0 rgba(102, 102, 102, 0.3);
 }
+.box_pkgame .overlay .inner{
+	background-color: rgba(29,29,29,0.5);
+	width: 100%;
+	height: 100%;
+}
+
 .box_pkgame .intro{
 	margin: 0 auto;
 	background-color: #fff;
@@ -179,17 +179,21 @@
 	font-family: PingFangTC-Medium, sans-serif;
 	line-height: 28px;
 	font-size: 20px;
-	color: #f95959;
+	color: #393E46;
 	margin-bottom: 7px;
-	/*text-align: left;*/
+}
+.box_pkgame .intro h4 span{
+	font-size: 20px;
+	line-height: 33px;
 }
 .box_pkgame .intro h4::after{
 	height: 3px;
 	display: block;
+	margin-top: 5px;
 	margin-bottom: 12px;
 	border-radius: 6px;
 	content: "";
-	background-color: #f95959;
+	background-color: #393E46;
 	transform: translateX(-21px);
 	box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.2);
 }
@@ -197,42 +201,30 @@
 	font-family: PingFangTC-Medium, sans-serif;
 	line-height: 28px;
 	font-size: 20px;
-	color: #f95959;
+	color: #9B9B9B;
 }
 .box_pkgame .intro p{
 	font-size: 16px;
 	text-align: left;
 	color: #393e46;
 	font-family: PingFangTC-Light, sans-serif;
+
 }
 .box_pkgame a{
 	margin:0 auto;
 	color: #fff;
-	background-color: #f95959;
+	background-color: #CCCCCC;
 	padding: 15px 42px;
 	display: inline-block;
 	transform: translateY(-68px);
 	transition: 300ms;
 }
-.box_pkgame:hover.box_pkgame a{
-	background-color: #FA8B8B;
-	color: #fff;
-}
-.box_pkgame a:active{
-    background-color: #C45555;
-}
+
 .box_pkgame:nth-child(odd){
 	margin-right: 6%;
 }
 .box_pkgame:nth-child(even){
 	margin-left: 6%;
 }
-
-/*.box_pkgame:nth-child(1){
-	margin-top: 130px;
-}
-.box_pkgame:nth-child(2){
-	margin-top: 130px;
-}*/
 
 /*sec_pkgame end*/
