@@ -94,6 +94,7 @@ header{
 }
 .main_nav_item.active a{
 	color: #f95959;
+	font-family: PingFangTC-Medium, sans-serif;
 }
 
 .main_nav_item.active:after{

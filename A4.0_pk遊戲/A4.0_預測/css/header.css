@@ -93,6 +93,7 @@ header{
 	transition: 300ms;
 }
 .main_nav_item.active a{
+	font-family: PingFangTC-Medium, sans-serif;
 	color: #f95959;
 }
 

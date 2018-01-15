@@ -8,7 +8,7 @@
 .bg{
 	background-color: #fff;
 	width: 67%;
-	height: 89%;
+	height: 70%;
 	position: absolute;
 	z-index: -1;
 	left: 0;
@@ -180,30 +180,7 @@
 	line-height: 28px;
 	font-size: 20px;
 	color: #f95959;
-	margin-bottom: 7px;
-	/*text-align: left;*/
-}
-.box_pkgame .intro h4::after{
-	height: 3px;
-	display: block;
-	margin-bottom: 12px;
-	border-radius: 6px;
-	content: "";
-	background-color: #f95959;
-	transform: translateX(-21px);
-	box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.2);
-}
-.box_pkgame .intro span.name{
-	font-family: PingFangTC-Medium, sans-serif;
-	line-height: 28px;
-	font-size: 20px;
-	color: #f95959;
-}
-.box_pkgame .intro p{
-	font-size: 16px;
-	text-align: left;
-	color: #393e46;
-	font-family: PingFangTC-Light, sans-serif;
+	text-align: center;
 }
 .box_pkgame a{
 	margin:0 auto;

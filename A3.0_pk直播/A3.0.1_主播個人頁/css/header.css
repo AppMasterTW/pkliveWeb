@@ -94,17 +94,7 @@ header{
 }
 .main_nav_item.active a{
 	color: #f95959;
-}
-
-.main_nav_item.active:after{
-    content: "";
-    position: absolute ;  
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #f95959;
-    height: 3px;
-    transition: 500ms;
+	font-family: PingFangTC-Medium, sans-serif;
 }
 .main_nav_item:after{
     content: "";
@@ -134,7 +124,6 @@ header{
     right: 0;
     background-color: #f95959;
     height: 3px;
-    
 }
 .main_nav_item:nth-child(5){
 	padding: 15px 9px;
