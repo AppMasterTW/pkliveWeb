@@ -405,7 +405,7 @@ p.hashtag a:hover{
 	color: #9b9b9b;
     border: 1px solid #f5a623;
 }
-input[type=text]:focus,input[type=password]:focus,textarea:focus{
+.textbox_wrapper input[type=text]:focus,input[type=password]:focus,textarea:focus{
  
  transition:border linear .2s,box-shadow linear .2s;
  -moz-transition:border linear .2s,-moz-box-shadow linear .2s;
