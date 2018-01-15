@@ -1,7 +1,6 @@
 .content_wrapper{
 	margin-top: 90px;
-	padding-top: 65px;
-	padding-bottom: 64px;
+	padding: 64px 0;
 	/*text-align: center;*/
 	background:url(../image/dotsBg.png);
 	background-size: 100%;
