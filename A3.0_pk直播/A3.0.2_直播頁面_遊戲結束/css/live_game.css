@@ -129,3 +129,27 @@
 	transition: 300ms;
 	text-align: center;
 }
+.gamebox span.win{
+	background-color: #F95959;
+	color: #fff;
+	padding: 0 11px;
+	width: auto;
+	font-size: 14px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+	position: absolute;
+	display: inline-block;
+	right: 100px;
+	top: -9px;
+	transform: rotate(-15deg);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	}
+
+
+
+
+
+
+
+
+
