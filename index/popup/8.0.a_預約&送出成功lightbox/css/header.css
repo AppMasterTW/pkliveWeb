@@ -56,12 +56,16 @@ header{
 	clear: both;
 }
 
+/*.main_header{
+	overflow:auto;
+}*/
 .logo{
 	float: left;
 	padding-left: 9.7%;
 }
 .logo li{
-	display: inline-block;
+	display: inline-block;/*
+	vertical-align: middle;*/
 	padding: 8px 0;
 }
 .logo a img{
@@ -70,7 +74,8 @@ header{
 
 .main_header .main_nav{
 	float: right;
-	color: #9B9B9B;
+	color: #9B9B9B;/*
+	display: inline-block;*/
 	padding-right: 9.7%;
 }
 .main_nav_item{
@@ -88,18 +93,9 @@ header{
 	line-height: 28px;
 	color: #ffffff;
 	position: relative;
-	transition: 300ms;	
-}
-.main_nav_item:nth-child(5){
-	padding: 16px 9px;
-}
-.main_nav_item .user{
-	fill:#fff;
 	transition: 300ms;
+	
 }
-
-/*sub-menu*/
-
 .main_nav_item:after{
     content: "";
     position: absolute ;  
@@ -116,6 +112,26 @@ header{
     right: 0;
     opacity: 1;
 }
+.main_nav_item:hover.main_nav_item>a{
+	color: #f95959;
+	font-family: PingFangTC-Medium, sans-serif;
+	}
+
+.main_nav_item:nth-child(5){
+	padding: 16px 9px;
+}
+.main_nav_item .user{
+	fill:#fff;
+	transition: 300ms;
+}
+
+.main_nav_item:hover.main_nav_item .user{
+	fill: #f95959;
+}
+.clearfix{
+	clear: both;
+}
+/*sub-menu*/
 
 .main_sub_nav{
     position: absolute;
@@ -168,15 +184,5 @@ header{
 
 /*sub_nav end*/
 
-.main_nav_item:hover.main_nav_item>a{
-	color: #f95959;
-	font-family: PingFangTC-Medium, sans-serif;
-	}
 
-.main_nav_item:hover.main_nav_item .user{
-	fill: #f95959;
-}
-.clearfix{
-	clear: both;
-}
 /*header end
