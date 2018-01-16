@@ -56,16 +56,12 @@ header{
 	clear: both;
 }
 
-/*.main_header{
-	overflow:auto;
-}*/
 .logo{
 	float: left;
 	padding-left: 9.7%;
 }
 .logo li{
-	display: inline-block;/*
-	vertical-align: middle;*/
+	display: inline-block;
 	padding: 8px 0;
 }
 .logo a img{
@@ -74,8 +70,7 @@ header{
 
 .main_header .main_nav{
 	float: right;
-	color: #9B9B9B;/*
-	display: inline-block;*/
+	color: #9B9B9B;
 	padding-right: 9.7%;
 }
 .main_nav_item{
@@ -93,11 +88,10 @@ header{
 	line-height: 28px;
 	color: #ffffff;
 	position: relative;
-	transition: 300ms;
-	
+	transition: 300ms;	
 }
 .main_nav_item:nth-child(5){
-	padding: 15px 9px;
+	padding: 16px 9px;
 }
 .main_nav_item .user{
 	fill:#fff;
@@ -113,7 +107,6 @@ header{
     left: 50%;
     right: 50%;
     background-color: #f95959;
-    /*transform: translate(0,-5px);*/
     height: 3px;
     opacity: 0;
     transition: 500ms;
@@ -122,7 +115,6 @@ header{
     left: 0;
     right: 0;
     opacity: 1;
-    /*transform: translate(0,10px);*/
 }
 
 .main_sub_nav{

@@ -74,8 +74,7 @@ header{
 
 .main_header .main_nav{
 	float: right;
-	color: #9B9B9B;/*
-	display: inline-block;*/
+	color: #9B9B9B;
 	padding-right: 9.7%;
 }
 .main_nav_item{
@@ -134,7 +133,7 @@ header{
 	font-family: PingFangTC-Medium, sans-serif;
 }
 .main_nav_item:nth-child(5){
-	padding: 15px 9px;
+	padding: 16px 9px;
 }
 .main_nav_item .user{
 	fill:#fff;
