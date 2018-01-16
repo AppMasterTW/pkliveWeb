@@ -69,7 +69,7 @@
 
 .game_wrapper .status span.present{
 	padding: 5px 14px;
-	background-color: #F5A623;
+	background-color: #CCCCCC;
 	color: #fff;
 	margin-left: 0;
 }
@@ -89,7 +89,7 @@
 	margin-bottom: 16px;
 	}
 
-*/.game_wrapper h2{
+.game_wrapper h2{
 	font-family: PingFangTC-Semibold;
 	font-size: 24px;
 	color: #393E46;
@@ -129,7 +129,7 @@
 .gamebox{
 	width: 350px;
 	background-color: #fff;
-	border:1px solid #F5A623;
+	border:1px solid #9B9B9B;
 	margin-right: 16px;
 	margin-bottom: 16px;
 	display: inline-block;
@@ -140,7 +140,7 @@
 	padding: 10px 16px;
 	vertical-align: middle;
 	display: inline-block;
-	color: #F5A623;
+	color: #9B9B9B;
 	font-size: 14px;
 	font-family: PingFangTC-Semibold, sans-serif;
 	line-height: 20px;
@@ -152,7 +152,7 @@
 	display: inline-block;
 	float: right;
 	padding: 10px 16px;
-	background-color: #F5A623;
+	background-color: #9B9B9B;
 	color: #fff;
 	font-size: 14px;
 	font-family: PingFangTC-Semibold, sans-serif;
@@ -161,7 +161,21 @@
 	text-align: center;
 	margin-left: 0;
 }
-
+.gamebox>span.win{
+	background-color: #F95959;
+	color: #fff;
+	padding: 0 11px;
+	width: auto;
+	font-size: 14px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+	position: absolute;
+	display: inline-block;
+	right: 80px;
+	top: -8px;
+	transform: rotate(-15deg);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	}
 .detail{
 	width: 101%;
 	height: auto;

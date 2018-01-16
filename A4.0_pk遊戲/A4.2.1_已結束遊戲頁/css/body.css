@@ -1,0 +1,20 @@
+*{
+	font-family: PingFangTC-Ultralight, sans-serif;
+	font-family: PingFangTC-Light, sans-serif;
+	font-family: PingFangTC-Thin, sans-serif;
+	font-family: PingFangTC-Medium, sans-serif;
+	font-family: PingFangTC-Semibold, sans-serif;
+	font-family: PingFangTC-Regular, sans-serif;
+	/*outline: 1px red solid;*/
+	text-decoration: none;
+	letter-spacing: 1.5px;
+	line-height: 22px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	background: linear-gradient(to right, #4b067c, #1d1d1d);
+	text-align: center;
+}
+
