@@ -54,14 +54,14 @@
     transition: 300ms;
 }
 .lightbox_content .angle_left i:hover{
-	transform: translateX(-5px);
+	transform: translateX(-10px);
 }
 .lightbox_content .angle_right{
 	padding-left:40px;
 	transition: 300ms;
 }
 .lightbox_content .angle_right i:hover{
-	transform: translateX(5px);
+	transform: translateX(10px);
 }
 
 

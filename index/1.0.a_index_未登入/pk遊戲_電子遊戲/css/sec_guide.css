@@ -9,9 +9,8 @@
 	margin: 0 auto;
 	background-color: #393e46;
 	color: #fff;
-	/*transform: translateY(-117px);*/
-	position: relative;
-	top: -117px;
+	transform: translateY(-117px);
+	/*padding-bottom: 117px;*/
 }
 .sec_guide .slogan{
 	padding-top: 41px;
@@ -89,7 +88,10 @@ img.pin{
 	vertical-align: middle;
 	transform: translateY(50%);
 }
-.sec_guide .angle a{
+.sec_guide .angle i{
 	color: #F95959;
+}
+.sec_guide .angle_right i:hover{
+	transform: translateX(10px);
 }
 /*sec_guide end*/

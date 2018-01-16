@@ -212,14 +212,14 @@
     transition: 300ms;
 }
 .box_wrapper .angle_left i:hover{
-	transform: translateX(-5px);
+	transform: translateX(-10px);
 }
 .box_wrapper .angle_right{
 	padding-left:4.5%;
 	transition: 300ms;
 }
 .box_wrapper .angle_right i:hover{
-	transform: translateX(5px);
+	transform: translateX(10px);
 }
 /*angle end*/
 /*live_vedeo end*/

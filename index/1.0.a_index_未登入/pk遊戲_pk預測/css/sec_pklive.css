@@ -171,25 +171,25 @@
 .sec_pklive .btn:active {
     background-color: #C45555;
 }
-
+.angle{
+	transition: 300ms;
+}
 .angle i{
 	font-size: 40px;
+	transition: 300ms;
 }
 .sec_pklive .angle{
 	color: #F5A623;	
 }
 .sec_pklive .angle_left{
-	padding-right: 4.5%;
-    transition: 300ms;
+	padding-right:4.5%;
 }
-.sec_pklive .angle_left:hover{
+.sec_pklive .angle_left i:hover{
 	transform: translateX(-10px);
 }
-
 .sec_pklive .angle_right{
-	padding-left: 4.5%;
-	transition: 300ms;
+	padding-left:4.5%;
 }
-.sec_pklive .angle_right:hover{
+.sec_pklive .angle_right i:hover{
 	transform: translateX(10px);
 }
