@@ -95,7 +95,7 @@
 	margin-top: 29px;
 }
 .gamebox{
-	width: 300px;
+	width: 290px;
 	background-color: #fff;
 	border:1px solid #F5A623;
 	margin-right: 24px;
@@ -167,8 +167,19 @@
 	letter-spacing: 1.5px;
 	line-height: 22px;
 }
+.detail input{
+	display: inline-block;
+	vertical-align: middle;
+}
+.detail img{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-bottom: 16px;
+}
 .detail input[type=text]{
-	width: 90%;
+	width: 85%;
 	border:1px solid rgba(197,197,197,0.25);
 	font-size: 14px;
 	padding: 9px;
@@ -176,14 +187,7 @@
 	line-height: 20px;
 	color: #9b9b9b;
 	margin-bottom: 16px;
-
 }
-.detail input[type=text]::after{
-	content: url(../image/ICON/coin.svg);
-	display: inline-block;
-	/*display: block;*/
-	vertical-align: middle;
-	}
 input[type=text]:focus,input[type=password]:focus,textarea:focus{
  
  transition:border linear .2s,box-shadow linear .2s;
@@ -209,7 +213,7 @@ input[type=text]:focus,input[type=password]:focus,textarea:focus{
 .detail input[type=submit]{
 	background-color: #F95959;
 	display: inline-block;
-	padding: 10px 43px;
+	padding: 10px 40px;
 	color: #fff;
 	font-size: 14px;
 	letter-spacing: 1.5px;
@@ -219,15 +223,15 @@ input[type=text]:focus,input[type=password]:focus,textarea:focus{
 	transition: 300ms;
 	margin-top: 12px;
 	}
+.detail input[type=submit].cancel{
+	background-color: #F5A623;
+	margin-right: 16px;
+}
 .detail input[type=submit]:hover{
 	background-color: #FA8B8B;
 }
 .detail input[type=submit]:active{
 	background-color: #C45555;
-}
-.detail input[type=submit].cancel{
-	background-color: #F5A623;
-	margin-right: 14px;
 }
 .detail input[type=submit].cancel:hover{
 	background-color: #F9C15D;
