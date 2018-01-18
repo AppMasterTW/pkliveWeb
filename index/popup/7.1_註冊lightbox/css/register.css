@@ -29,16 +29,6 @@ input.mid_column{
 input.right_column{
 	margin-right: 0;
 }
-
-/*checkbox*/
-
-.container a{
-	color:  #393E46;
-	font-size: 14px;
-	font-family: PingFangTC-Semibold, sans-serif;
-	line-height: 20px;
-}
-/*checkbox end*/
 .lightbox_content p{
 	margin-top: 20px;
 	margin-bottom: 16px;

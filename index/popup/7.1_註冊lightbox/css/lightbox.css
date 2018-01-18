@@ -176,7 +176,15 @@ color: #393E46;
 -ms-user-select: none;
 user-select: none;
 }
+/*checkbox*/
 
+.container a{
+	color:  #393E46;
+	font-size: 14px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+}
+/*checkbox end*/
 /* Hide the browser's default checkbox */
 .container input {
   position: absolute;

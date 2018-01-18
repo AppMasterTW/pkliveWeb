@@ -8,7 +8,7 @@
 
 /*profile*/
 .main_title{
-	color: #F95959;
+	color: #FFFFFF;
 	font-size: 24px;
 	font-family: PingFangTC-Semibold, sans-serif;
 	line-height: 33px;
@@ -21,7 +21,7 @@
 .main_title:before{
 	content: "";
 	display: inline-block;
-	background-color: #F95959;
+	background-color: #FFFFFF;
 	width: 400px;
 	height: 3px;
 	vertical-align: middle;
@@ -30,7 +30,7 @@
 .main_title:after{
 	content: "";
 	display: inline-block;
-	background-color: #F95959;
+	background-color: #FFFFFF;
 	width: 400px;
 	height: 3px;
 	vertical-align: middle;
@@ -39,11 +39,24 @@
 .center_wrapper{
 	background-color: #fff;
 	width: 920px;
-	height: 790px;
+	/*height: 790px;*/
 	margin:0 auto;
 	box-shadow: 0 2px 10px 0 rgba(29,29,29,0.25);
 	text-align: left;
 	color: #393E46;
+	margin-top: 10px;
+	margin-bottom: 64px;
+	position: relative;
+}
+.center_wrapper::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #f5a623;
+	top: -53px;
+	left: -75px;
+	z-index: -1;
 }
 .profile{
 	margin: 0 auto;
@@ -109,6 +122,7 @@
 }
 .view{
 	margin-top: 7px;
+	margin-left: 9px;
 }
 .view p{
 	font-size: 14px;
@@ -194,6 +208,46 @@
 .step.active svg path{
 	fill: #9013FE;
 }
+.section input[type=button]{
+	display: inline-block;
+	background-color: #fff;
+	border: 1px solid rgba(151,151,151,0.25);
+	padding: 10px 7px;
+	margin: 0 auto;
+	font-family: PingFangTC-Light;
+	font-size: 14px;
+	color: #393E46;
+	letter-spacing: 1.5px;
+	line-height: 20px;
+	margin-right: 16px;
+}
+.section input[type=button].active{
+	border: 1px solid #67BC09;
+}
+.section input[type=button].active::after{
+	width: 0;
+	height: 0;
+	content: "";
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	border-top: 16px solid #67BC09;
+	position: relative;
+	top: 0;
+	/*top: -12px;
+	left: 27px;*/
+}
+/*.section input[type=button]:active{
+	border: 1px solid #67BC09;
+}
+.section input[type=button]:focus {
+	border: 1px solid #67BC09;
+}
+.section input[type=button]:visited{
+	border: 1px solid #67BC09;
+}*/
+
+
+
 
 .dealBox .section span{
 	font-family: PingFangTC-Semibold;
@@ -201,6 +255,89 @@
 	letter-spacing: 1.5px;
 	line-height: 22px;
 }
+
+
+/*checkbox*/
+.container {
+	display: block;
+	position: relative;
+	padding-left: 24px;
+	cursor: pointer;
+	text-align: left;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-family: PingFangTC-Light;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	line-height: 22px;
+	margin-top: 24px;
+	}
+.container a{
+	/* 儲值同意書: */
+	font-family: PingFangTC-Semibold;
+	font-size: 16px;
+	color: #393E46;
+	letter-spacing: 1.5px;
+	line-height: 22px;
+}
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  margin: 3px 0;
+  background-color: #fff;
+  border:1px solid #979797;
+}
+
+/* On mouse-over, add a grey background color */
+/*.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+*/
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #64BE00;
+  border:none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 5px;
+  top: 1px;
+  width: 3px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/*checkbox end*/
+
+
 input[type=submit]{
 	display: block;
 	background-color: #f95959;
@@ -221,7 +358,3 @@ input[type=submit]:hover{
 input[type=submit]:active{
 	background-color: #C45555;
 }
-
-
-
-
