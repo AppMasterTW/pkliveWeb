@@ -226,7 +226,7 @@
 
 
 /*live_photo*/
-.live_photo_wrapper{
+/*.live_photo_wrapper{
 	background: linear-gradient(to right, #4b067c, #1d1d1d);
 	position: relative;
 }
@@ -239,7 +239,6 @@
 	background: url(../image/background_image/pkbg.png) no-repeat top center/cover;
 }
 .live_photo_wrapper .gallery{
-	/*line-height: 0;*/
 	-webkit-column-count: 4;
 	-webkit-column-gap:   25px;
 	-moz-column-count:    4;
@@ -255,7 +254,6 @@
 	width:100%;
 	height: auto;
 	vertical-align: middle;
-	/*transform: scale(1);*/
 	transition: 300ms;
 }
 .live_photo_wrapper .gallery img{
@@ -289,7 +287,7 @@ a.more_btn:hover{
 }
 a.more_btn:active{
 	background-color: #C38B22;
-}
+}*/
 
 /*live photo end*/
 
