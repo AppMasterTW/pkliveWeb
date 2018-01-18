@@ -1,0 +1,227 @@
+
+.content_wrapper{
+	margin-top: 90px;
+	text-align: center;
+	background:url(../image/dotsBg.png);
+	background-size: 100%;
+}
+
+/*profile*/
+.main_title{
+	color: #F95959;
+	font-size: 24px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 33px;
+	padding-top: 64px;
+	display: block;
+}
+.main_title.photo{
+	color: #fff;
+}
+.main_title:before{
+	content: "";
+	display: inline-block;
+	background-color: #F95959;
+	width: 400px;
+	height: 3px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.main_title:after{
+	content: "";
+	display: inline-block;
+	background-color: #F95959;
+	width: 400px;
+	height: 3px;
+	vertical-align: middle;
+	margin-left: 8px;
+}
+.center_wrapper{
+	background-color: #fff;
+	width: 920px;
+	height: 790px;
+	margin:0 auto;
+	box-shadow: 0 2px 10px 0 rgba(29,29,29,0.25);
+	text-align: left;
+	color: #393E46;
+}
+.profile{
+	margin: 0 auto;
+	text-align: left;
+	padding: 35px 66px;
+	background-color: #f2f2f2;
+}
+.profile .user_img{
+	width: 100px;
+	height: 100px;
+	background: url(../image/user_img.png);
+	background-size: 100%;
+	border-radius: 20px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	display: inline-block;
+	vertical-align: middle;	
+}
+.profile h3{
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 22px;
+	margin-bottom: 5px;
+}
+.profile p.level{
+	padding: 0 8px;
+	background-color: #f95959;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 16px;
+	display: inline-block;
+	margin-top: 4px;
+
+}
+.user_info{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 16px;
+	width: 330px;
+}
+.main_info{
+	border-bottom: 1px solid rgba(249,89,89,0.50);
+	padding-bottom: 14px;
+}
+.progress_bar{
+	display: inline-block;
+}
+.progress_bar .bar_border{
+	height: 8px;
+	width: 118px;
+	border:1px solid #f95959;
+	border-radius: 3px;
+	position:absolute;
+}
+.progress_bar .bar_content{
+	position: relative;
+	height: 8px;
+	width: 100px;
+	background-color:#f95959;
+	border-radius: 3px;
+}
+.view{
+	margin-top: 7px;
+}
+.view p{
+	font-size: 14px;
+	font-family: PingFangTC-Light, sans-serif;
+	line-height: 20px;
+	display: inline-block;
+
+}
+.profile .coin{
+	margin-right: 23px;
+}
+.profile .coin:before{
+	display: inline-block;
+	content: url(../image/ICON/coin.svg);
+	margin-right: 8px;
+	height: 20px;
+  	width:20px;
+  	transform: scale(0.8);
+  	vertical-align: middle;
+}
+
+.profile .diamond:before{
+	display: inline-block;
+	content: url(../image/ICON/diamond.svg);
+	margin-right: 8px;
+	height: 20px;
+  	width:20px;
+  	transform: scale(0.8);
+  	vertical-align: middle;
+}
+/*profile end*/
+
+/*center_content*/
+.center_content{
+	padding: 29px 64px;
+}
+.center_content>div{
+	margin-top: 16px;
+}
+.dealBox{
+	background-color: rgba(234,70,74,0.1);
+	padding: 5px 16px;
+}
+.center_content h4{
+	display: inline-block;	font-size: 16px;
+	letter-spacing: 1.5px;
+	line-height: 22px;
+	font-weight:normal;
+	font-family: PingFangTC-Light, sans-serif;
+}
+.step{
+	display: inline-block;
+	margin-right: 29px;
+	border-bottom: 3px solid yellow;
+	-webkit-border-image: -webkit-linear-gradient(left, #E9E5E9, #9B9B9B);
+	-o-border-image: -o-linear-gradient(left, #E9E5E9, #9B9B9B);
+	border-image: linear-gradient(to right, #E9E5E9, #9B9B9B);
+  	border-image-slice: 1;
+}
+.step.active{
+    -webkit-border-image: -webkit-linear-gradient(left, #C262D3, #2A21A4);
+	-o-border-image: -o-linear-gradient(left, #C262D3, #2A21A4);
+	border-image: linear-gradient(to right, #C262D3, #2A21A4);
+	border-image-slice: 1;
+}
+.step span{
+	font-family: PingFangTC-Semibold;
+	font-size: 16px;
+	color: #9B9B9B;
+	letter-spacing: 1.5px;
+	line-height: 22px;
+	padding-left: 2px;
+}
+.step.active span{
+	color: #9013FE;
+}
+.step svg {
+	padding-top: 3px;
+}
+.step svg path{
+	fill: #9b9b9b;
+}
+.step.active svg path{
+	fill: #9013FE;
+}
+
+.dealBox .section span{
+	font-family: PingFangTC-Semibold;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	line-height: 22px;
+}
+input[type=submit]{
+	display: block;
+	background-color: #f95959;
+	color: #fff;
+	padding: 10px 49px;
+	margin: 0 auto;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+	border:none;
+	transition: 300ms;
+	margin-top: 24px;
+}
+input[type=submit]:hover{
+	background-color: #FA8B8B;
+}
+input[type=submit]:active{
+	background-color: #C45555;
+}
+
+
+
+
