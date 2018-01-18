@@ -1,6 +1,7 @@
 /*banner*/
 .sec_banner{
 	position: relative;
+	margin-bottom: 131px;
 }
 .activities_info{
 	position: absolute;
@@ -55,8 +56,17 @@
 	position: absolute;
 	top:50%;
 	transform: translateY(50%);
-
+	transition: 300ms;
 }
 .banner .angle_left{
 	transform: translate(13px,-84px);
 }
+.banner .angle_left i:hover{
+	transform: translateX(-10px);
+}
+.banner .angle_right i:hover{
+	transform: translateX(10px);
+}
+
+
+

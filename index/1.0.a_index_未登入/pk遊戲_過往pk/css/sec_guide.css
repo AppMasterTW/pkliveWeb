@@ -88,7 +88,10 @@ img.pin{
 	vertical-align: middle;
 	transform: translateY(50%);
 }
-.sec_guide .angle a{
+.sec_guide .angle i{
 	color: #F95959;
+}
+.sec_guide .angle_right i:hover{
+	transform: translateX(10px);
 }
 /*sec_guide end*/

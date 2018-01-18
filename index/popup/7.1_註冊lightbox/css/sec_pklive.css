@@ -1,8 +1,6 @@
 
 .dot{
-	margin-top: 131px;
 	background-color: #fff;
-
 }
 .sec_pklive{
 	width: 100%;
@@ -11,7 +9,11 @@
 	transform: translateY(-41px);
 	background-size: 100%;
 	color: #393e46;
+	padding-bottom: 133px;
 }
+.sec_pklive.II{
+	padding-bottom: 35px;
+	}
 .sec_pklive .slogan{
 	padding-top: 90px;
 }
@@ -32,16 +34,10 @@
 	margin-top: 3px;
 	line-height: 22px;
 }
-.slide{
+.box_wrapper{
 	margin: 0 auto;
 	margin-top: 41px;
-	padding-bottom: 133px;
-
 }
-.slide.II{
-	padding-bottom: 74px;	
-}
-
 .box_pklive{
 	display:inline-block;
 	vertical-align: middle;
@@ -57,13 +53,13 @@
 	width: 300px;
 	height: 423px;
 }
-.content{
+.img_wrapper{
 	height: 80%;
 	/*text-align: right;*/
 	position: relative;
 	transition: 300ms;
 }
-.content img{
+.img_wrapper img{
 	width: 100%;
 	height:100%;
 	object-fit: cover;
@@ -71,7 +67,7 @@
 	border-radius: 5px 0 0 0;
 }
 
-.content p{
+.img_wrapper p{
 	background-color: #9013FE;
 	color: #fff;
 	display: inline-block;
@@ -83,7 +79,7 @@
 	top:0; 
 	right: 0;
 }
-.content i{
+.img_wrapper i{
 	display: inline-block;
 	font-size: 60px;
 	position: absolute;
@@ -95,12 +91,12 @@
 	display: none;
 
 }
-.box_pklive:hover .content i{
+.box_pklive:hover .img_wrapper i{
 	display: block;
 }
 
 
-.content .mask{
+.img_wrapper .mask{
 	width: 100%;
 	height: 100%;
 	position:absolute;
@@ -108,7 +104,7 @@
 	background-color: rgba(249,89,89,0.34);
 	display: none;
 }
-.content .border{
+.img_wrapper .border{
 	width: 100%;
 	height: 100%;
 	position:absolute;
@@ -124,7 +120,7 @@
 	border: 2px solid #F95959;
 }
 
-.box_pklive:hover .content img{
+.box_pklive:hover .img_wrapper img{
 	border-radius: 0;
 }
 .box_pklive:hover{
@@ -176,22 +172,22 @@
 
 .angle i{
 	font-size: 40px;
+	transition: 300ms;
 }
 .sec_pklive .angle{
 	color: #F5A623;	
 }
 .sec_pklive .angle_left{
-	padding-right: 4.5%;
+	padding-right:4.5%;
     transition: 300ms;
 }
-.sec_pklive .angle_left:hover{
+.sec_pklive .angle_left i:hover{
 	transform: translateX(-10px);
 }
-
 .sec_pklive .angle_right{
-	padding-left: 4.5%;
+	padding-left:4.5%;
 	transition: 300ms;
 }
-.sec_pklive .angle_right:hover{
+.sec_pklive .angle_right i:hover{
 	transform: translateX(10px);
 }

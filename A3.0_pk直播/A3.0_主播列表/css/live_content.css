@@ -58,6 +58,8 @@ p.hashtag a:first-child{
 	margin-left: 8px;
 }
 .box_wrapper{
+	margin: 0 auto; 
+	max-width: 1400px;
 	margin-top: 48px;
 }
 .box_pklive{

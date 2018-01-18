@@ -7,7 +7,7 @@
 	/*padding: 70px 87px;*/
 	padding: 3%;
 	position:relative;
-	z-index: 100;
+	z-index: 98;
 }
 .livegame_wrapper svg{
 	display: inline-block;

@@ -96,15 +96,6 @@ header{
 	transition: 300ms;
 	
 }
-.main_nav_item:nth-child(5){
-	padding: 15px 9px;
-}
-.main_nav_item .user{
-	fill:#fff;
-	transition: 300ms;
-}
-
-/*sub-menu*/
 
 .main_nav_item:after{
     content: "";
@@ -113,7 +104,6 @@ header{
     left: 50%;
     right: 50%;
     background-color: #f95959;
-    /*transform: translate(0,-5px);*/
     height: 3px;
     opacity: 0;
     transition: 500ms;
@@ -122,8 +112,25 @@ header{
     left: 0;
     right: 0;
     opacity: 1;
-    /*transform: translate(0,10px);*/
 }
+.main_nav_item:hover.main_nav_item>a{
+	color: #f95959;
+	font-family: PingFangTC-Medium, sans-serif;
+}
+.main_nav_item:nth-child(5){
+	padding: 16px 9px;
+}
+.main_nav_item .user{
+	fill:#fff;
+	transition: 300ms;
+}
+.main_nav_item:hover.main_nav_item .user{
+	fill: #f95959;
+}
+.clearfix{
+	clear: both;
+}
+/*sub-menu*/
 
 .main_sub_nav{
     position: absolute;
