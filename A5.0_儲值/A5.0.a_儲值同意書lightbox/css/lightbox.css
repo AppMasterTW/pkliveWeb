@@ -20,6 +20,7 @@
 
 }
 .main_title.lightbox_title{
+	padding-top: 34px;
 	color: #f95959;
 }
 .main_title.lightbox_title::before{
