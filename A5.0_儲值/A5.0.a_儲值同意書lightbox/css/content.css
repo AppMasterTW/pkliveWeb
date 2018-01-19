@@ -16,9 +16,6 @@
 	padding-top: 64px;
 	display: block;
 }
-.main_title.photo{
-	color: #fff;
-}
 .main_title:before{
 	content: "";
 	display: inline-block;
@@ -288,6 +285,8 @@
     -ms-transform: rotate(40deg);
     -webkit-transform: rotate(40deg);
     }
+
+
 select{
 	font-family: PingFangTC-Light;
 	font-size: 14px;
@@ -459,3 +458,5 @@ input[type=submit]:hover{
 input[type=submit]:active{
 	background-color: #C45555;
 }
+
+
