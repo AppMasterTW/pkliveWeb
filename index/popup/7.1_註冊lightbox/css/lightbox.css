@@ -106,6 +106,27 @@
 .lightbox_content input{
 	width:100%;
 }
+.lightbox_content input[type=text]{
+    padding: 9px;
+    margin-bottom: 16px;
+    font-size: 14px;
+	letter-spacing: 1.5px;
+	font-family: PingFangTC-Light, sans-serif;
+	line-height: 20px;
+	color: #9b9b9b;
+    border: 1px solid #ccc;
+}
+input[type=text]:focus,input[type=password]:focus,textarea:focus{
+ 
+ transition:border linear .2s,box-shadow linear .2s;
+ -moz-transition:border linear .2s,-moz-box-shadow linear .2s;
+ -webkit-transition:border linear .2s,-webkit-box-shadow linear .2s;
+ outline:none;border-color:#9b9b9b;
+ box-shadow: inset 0 0 2px #9013FE;
+ -moz-box-shadow:inset 0 0 2px #9013FE;
+ -webkit-box-shadow:inset 0 0 2px #9013FE;
+ 
+}
 .input_group a{
 	float: right;
 	color: #393E46;
@@ -140,6 +161,7 @@
 
 /* Create a custom checkbox */
 .container {
+float: left;
 display: inline-block;
 position: relative;
 padding-left: 24px;
@@ -154,7 +176,15 @@ color: #393E46;
 -ms-user-select: none;
 user-select: none;
 }
+/*checkbox*/
 
+.container a{
+	color:  #393E46;
+	font-size: 14px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+}
+/*checkbox end*/
 /* Hide the browser's default checkbox */
 .container input {
   position: absolute;
@@ -208,7 +238,6 @@ user-select: none;
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
 /*checkbox end*/
 
 
