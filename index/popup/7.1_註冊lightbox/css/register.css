@@ -16,15 +16,23 @@ input.single_column{
 	width: 31%;
 	margin: 0 1%;
 }
-
+select.single_column{
+	width: 31%;
+	margin: 0 1%;
+	margin-bottom: 16px;
+}
+select.left_column{
+	margin-left: 0;
+}
+select.single_column.right_column{
+	margin-right: 0;
+	}
 input.double_column{
 	width: 65.5%;
 	margin: 0 1%;
 }
 input.left_column{
 	margin-left: 0;
-}
-input.mid_column{
 }
 input.right_column{
 	margin-right: 0;
