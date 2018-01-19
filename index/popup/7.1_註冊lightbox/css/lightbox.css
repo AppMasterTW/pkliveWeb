@@ -114,7 +114,7 @@
 	font-family: PingFangTC-Light, sans-serif;
 	line-height: 20px;
 	color: #9b9b9b;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(151,151,151,0.25);
 }
 input[type=text]:focus,input[type=password]:focus,textarea:focus{
  
@@ -126,6 +126,27 @@ input[type=text]:focus,input[type=password]:focus,textarea:focus{
  -moz-box-shadow:inset 0 0 2px #9013FE;
  -webkit-box-shadow:inset 0 0 2px #9013FE;
  
+}
+.lightbox_content select{
+	font-family: PingFangTC-Light;
+	font-size: 14px;
+	color: #9B9B9B;
+	letter-spacing: 1.5px;
+	line-height: 20px;
+	border: 1px solid rgba(151,151,151,0.25);
+	background:#fff;
+	padding: 9px;
+	padding-right: 50px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(../image/ICON/select-arrow.svg) 96% / 15% no-repeat;
+	border-radius: 0;
+	margin: 0;
+	
+}
+select::-ms-expand { 
+    display: none; /* remove default arrow in IE 10 and 11 */
 }
 .input_group a{
 	float: right;
