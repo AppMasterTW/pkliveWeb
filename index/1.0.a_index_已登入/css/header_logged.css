@@ -64,8 +64,7 @@ header{
 	padding-left: 9.7%;
 }
 .logo li{
-	display: inline-block;/*
-	vertical-align: middle;*/
+	display: inline-block;
 	padding: 8px 0;
 }
 .logo a img{
@@ -74,8 +73,7 @@ header{
 
 .main_header .main_nav{
 	float: right;
-	color: #9B9B9B;/*
-	display: inline-block;*/
+	color: #9B9B9B;
 	padding-right: 9.7%;
 }
 .main_nav_item{
@@ -94,7 +92,6 @@ header{
 	color: #ffffff;
 	position: relative;
 	transition: 300ms;
-	
 }
 
 .main_nav_item:after{
@@ -135,7 +132,7 @@ header{
 .main_sub_nav{
     position: absolute;
     width: 150%;
-    background-color: rgba(57, 62, 70, 0.5);
+    background-color: #f95959;
     left: 50%;
     margin-top: 19px;
     transform:translate(-50%,0) scale(0.8);
@@ -146,9 +143,13 @@ header{
 }
 .main_sub_nav li{	
 	padding: 16px 0;
-	margin: 0 35px;
-	border-bottom: 1px solid rgba(249,89,89,0.5);
+	margin: 0 23px;
+	border-bottom: 1px solid #fff;
 }
+.main_sub_nav li a:hover{
+	font-size: 24px;
+}
+
 .main_sub_nav.nav_user{
 	width: 660%;
 	transform:translate(-75%,0) scale(0.8);
@@ -162,15 +163,16 @@ header{
 .main_sub_nav li:last-child{	
 	border-bottom:none;
 }
-.main_sub_nav a{
+.main_sub_nav li a{
 	font-size: 20px;
 	letter-spacing: 1.5px;
 	font-family: PingFangTC-Medium, sans-serif;
 	line-height: 28px;
-	color: #f95959;
+	color: #ffffff;
+	transition: 300ms;
 }
-.main_sub_nav a:hover{
-	color: #fff;
+.main_sub_nav li a:hover{
+	font-size: 24px;
 }
 .main_sub_nav.nav_user li:last-child>a:hover{
 	color: #fff;
@@ -196,7 +198,7 @@ header{
 	text-align: left;
 }
 .user_info.info_1{
-	border-bottom: 1px solid rgba(249,89,89,0.5);
+	border-bottom: 1px solid #FFFFFF;
 	padding-top: 23px;
 	padding-bottom: 15px;
 }
@@ -216,11 +218,12 @@ header{
 	font-family: PingFangTC-Semibold, sans-serif;
 	line-height: 22px;
 	margin-bottom: 2px;
+	color: #FFFFFF;
 }
 .info_1 p{
 	padding: 0 8px;
-	background-color: #f95959;
-	color: #fff;
+	background-color: #FFFFFF;
+	color:#f95959;
 	font-size: 14px;
 	letter-spacing: 1.5px;
 	font-family: PingFangTC-Semibold, sans-serif;
@@ -241,7 +244,7 @@ header{
 .progress_bar .bar_border{
 	height: 8px;
 	width: 118px;
-	border:1px solid #f95959;
+	border:1px solid #FFFFFF;
 	border-radius: 3px;
 	position:absolute;
 }
@@ -249,7 +252,7 @@ header{
 	position: relative;
 	height: 8px;
 	width: 100px;
-	background-color:#f95959;
+	background-color:#FFFFFF;
 	border-radius: 3px;
 }
 .info_2{
@@ -263,12 +266,13 @@ header{
 	display: inline-block;
 	margin-top: 8px;
 	margin-bottom: 9px;
+	color: #FFFFFF;
 }
 
 .info_2 a{
 	padding: 0 7px;
 	color: #fff;
-	background-color: #f95959;
+	background-color: #F5A623;
 	font-size: 14px;
 	letter-spacing: 1.5px;
 	font-family: PingFangTC-Medium, sans-serif;
@@ -277,13 +281,18 @@ header{
 	margin-top: 10px;
 	vertical-align: middle;
 }
-
+.info_2 a:hover{
+	background-color: #F9C15D;
+}
+.info_2 a:active{
+	background-color: #C38B22;
+}
 .view p{
 	font-size: 14px;
 	font-family: PingFangTC-Light, sans-serif;
 	line-height: 20px;
 	display: inline-block;
-
+	color: #FFFFFF;
 }
 .info_2 .coin{
 	margin-right: 23px;
@@ -329,13 +338,13 @@ header{
 	background-color: #C38B22;
 }
 .info_3 a.main_btn{
-	background-color: #f95959;
+	background-color: #9013FE;
 	padding: 10px 39px;
 	margin-left: 8px;
 }
 .info_3 a.main_btn:hover{
-	background-color: #FA8B8B;
+	background-color: #B252FF;
 }
 .info_3 a.main_btn:active{
-	background-color: #C45555;
+	background-color: #7C13CB;
 }

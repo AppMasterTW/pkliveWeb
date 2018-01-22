@@ -28,13 +28,15 @@
 }
 .pageControls a{
 	display: inline-block;
-	padding: 6px 11px;
+	padding: 6px 0;
+	width: 32px;
 	margin: 0 16px;
 	color: #F5A623;
 	background-color: #F2F2F2;
 	font-family: PingFangTC-Semibold, sans-serif;
 	font-size: 14px;
 	line-height: 20px;
+	text-align: center;
 }
 .pageControls a.active{
 	color: #fff;
@@ -44,6 +46,9 @@
 .pageControls img{
 	transform: rotate(90deg);
 	vertical-align: middle;
+	width: 18px; 
+	height: 18px;
+
 }
 .filter{
 	margin-bottom: 32px;
@@ -227,12 +232,3 @@
 .box_pkgame:nth-child(even){
 	margin-left: 6%;
 }
-
-/*.box_pkgame:nth-child(1){
-	margin-top: 130px;
-}
-.box_pkgame:nth-child(2){
-	margin-top: 130px;
-}*/
-
-/*sec_pkgame end*/

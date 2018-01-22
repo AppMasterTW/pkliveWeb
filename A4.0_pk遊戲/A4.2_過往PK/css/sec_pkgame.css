@@ -28,13 +28,15 @@
 }
 .pageControls a{
 	display: inline-block;
-	padding: 6px 11px;
+	padding: 6px 0;
+	width: 32px;
 	margin: 0 16px;
 	color: #F5A623;
 	background-color: #F2F2F2;
 	font-family: PingFangTC-Semibold, sans-serif;
 	font-size: 14px;
 	line-height: 20px;
+	text-align: center;
 }
 .pageControls a.active{
 	color: #fff;
@@ -44,6 +46,8 @@
 .pageControls img{
 	transform: rotate(90deg);
 	vertical-align: middle;
+	width: 18px; 
+	height: 18px;
 }
 .filter{
 	margin-bottom: 32px;
@@ -69,6 +73,9 @@
 	background-color: #F9C15D;
 	color: #fff;
 	}
+.filter a.active:active{
+	background-color: #C38B22;
+}
 .filter input{
 	width: 200px;
 }
