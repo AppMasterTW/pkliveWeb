@@ -29,31 +29,6 @@
 	vertical-align: middle;
 	margin-left: 8px;
 }
-.filter{
-	margin-bottom: 32px;
-}
-.filter a{
-	font-family: PingFangTC-Semibold;
-	font-size: 14px;
-	color: #F5A623;
-	letter-spacing: 1.5px;
-	line-height: 20px;
-	padding: 5px 20px;
-	transition: 300ms;
-}
-.filter a.active{
-	color: #fff;
-	background-color:  #F5A623;
-	transition: 300ms;
-}
-.filter a:hover{
-	color: #F9C15D;
-	}
-.filter a.active:hover{
-	background-color: #F9C15D;
-	color: #fff;
-	}
-
 .game_wrapper{
 	width: 70%;
 	margin: 0 auto;

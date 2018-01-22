@@ -5,12 +5,9 @@ footer{
 	width: 100%;
 	background-color: #393e46;
 	text-align: center;
-	position: absolute;
-	bottom: 0;
 }
 #main_footer{
 	width: 81.6%;
-	/*background-color: #393e46;*/
 	margin: 0 auto;
 	border-bottom: 1px solid #9b9b9b;
 	overflow:auto;
