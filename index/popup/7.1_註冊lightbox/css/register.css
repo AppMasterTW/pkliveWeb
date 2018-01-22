@@ -37,23 +37,6 @@ input.left_column{
 input.right_column{
 	margin-right: 0;
 }
-.lightbox_content p{
-	margin-top: 20px;
-	margin-bottom: 16px;
-	font-size: 16px;
-	font-family: PingFangTC-Semibold, sans-serif;
-	line-height: 22px;
-	color: #393E46;
-}
-.lightbox_content ul.link{
-	margin-bottom: 56px;
-	
-}
-.lightbox_content li.link{
-	display: inline-block;
-	padding: 0 7px;
-	
-}
 
 
 

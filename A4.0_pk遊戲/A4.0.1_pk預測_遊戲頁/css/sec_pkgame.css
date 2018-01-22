@@ -63,7 +63,7 @@
 	margin-bottom: 16px;
 	}
 
-*/.game_wrapper h2{
+.game_wrapper h2{
 	font-family: PingFangTC-Semibold;
 	font-size: 24px;
 	color: #393E46;
@@ -94,7 +94,6 @@
 	margin-top: 16px;
 	margin-bottom: 24px;
 }
-
 .gamebox_wrapper{
 	margin:0 auto;
 	margin-top: 16px;
@@ -109,6 +108,7 @@
 	display: inline-block;
 	position: relative;
 	text-align: center;
+	transition: 300ms;
 }
 .gamebox>p{
 	padding: 10px 16px;
@@ -120,6 +120,7 @@
 	line-height: 20px;
 	text-align: center;
 	margin: 0;
+	transition: 300ms;
 	}
 .gamebox>span{
 	vertical-align: middle;
@@ -135,7 +136,6 @@
 	text-align: center;
 	margin-left: 0;
 }
-
 .detail{
 	width: 101%;
 	height: auto;
@@ -148,13 +148,34 @@
 	margin-top: 12px;
 	z-index: 99;
 	padding: 23px;
-	transform: scale(0);
+	
+	display: none;
 	transform-origin: top left;
 	transition: 500ms;
 }
-.gamebox:hover .detail{
-	transform: scale(1);
+.gamebox:hover{
+	background-color:  #F5A623;
+	color: #fff;
 }
+.gamebox:hover.gamebox>p{
+	color: #fff;
+}
+
+@keyframes fadeIn {
+    from { 
+    	transform: scale(0);
+    	opacity: 0; 
+    }
+      to { 
+      	transform: scale(1);
+      	opacity: 1; 
+      }
+}
+.gamebox:active .detail{
+  display: block;
+  animation: fadeIn 250ms ease-in-out both;
+}
+
 .detail::before{
 	content: "";
 	width: 0;

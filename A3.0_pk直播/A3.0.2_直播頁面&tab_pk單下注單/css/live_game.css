@@ -141,12 +141,31 @@
 	margin-top: 12px;
 	z-index: 99;
 	padding: 23px;
-	transform: scale(0);
+	display: none;
 	transform-origin: top left;
 	transition: 500ms;
 }
-.gamebox:hover .detail{
-	transform: scale(1);
+.gamebox:hover{
+	background-color:  #F5A623;
+	color: #fff;
+}
+.gamebox:hover.gamebox>p{
+	color: #fff;
+}
+
+@keyframes fadeIn {
+    from { 
+    	transform: scale(0);
+    	opacity: 0; 
+    }
+      to { 
+      	transform: scale(1);
+      	opacity: 1; 
+      }
+}
+.gamebox:active .detail{
+  display: block;
+  animation: fadeIn 250ms ease-in-out both;
 }
 .detail::before{
 	content: "";
