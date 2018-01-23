@@ -92,10 +92,6 @@ header{
 	position: relative;
 	transition: 300ms;
 }
-.main_nav_item.active a{
-	color: #f95959;
-	font-family: PingFangTC-Medium, sans-serif;
-}
 .main_nav_item:after{
     content: "";
     position: absolute ;  
@@ -132,6 +128,9 @@ header{
 	fill: #393E46;
 	transition: 300ms;
 }
+.main_nav_item.active .user{
+	fill: #f95959;
+	}
 .main_nav_item:hover.main_nav_item>a{
 	color: #f95959;
 	font-family: PingFangTC-Medium, sans-serif;
@@ -140,7 +139,6 @@ header{
 .main_nav_item:hover.main_nav_item .user{
 	fill: #f95959;
 }
-
 
 .clearfix{
 	clear: both;
