@@ -43,7 +43,9 @@
 .sideBar-item:hover{
 	border-bottom: 2px solid #F5A623;
 }
-
+.sideBar-item.active:hover{
+	border-bottom: 3px solid #F5A623;
+}
 /*sideBar end*/
 
 
