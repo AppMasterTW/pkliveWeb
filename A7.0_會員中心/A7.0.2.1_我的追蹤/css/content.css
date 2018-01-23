@@ -89,6 +89,28 @@
 	vertical-align: middle;	
 	position: relative;
 }
+.user_img .mask{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(29,29,29,0.70);
+	border-radius: 20px;
+	text-align: center;
+	opacity: 0;
+	transition: 150ms;
+}
+.user_img .mask svg{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.user_img:hover.user_img .mask{
+	opacity: 1;
+}
 .profile h3{
 	font-size: 16px;
 	letter-spacing: 1.5px;
