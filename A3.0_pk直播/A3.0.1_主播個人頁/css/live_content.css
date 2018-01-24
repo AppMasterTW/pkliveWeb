@@ -142,9 +142,10 @@
 	position: relative;
 	top: -35px;
 }
-.box_pklive:hover .intro{
+.box_pklive:hover .intro p,.box_pklive:hover .intro span{
 	color: #fff;
 }
+
 .intro span{
 	font-family: PingFangTC-Semibold, sans-serif;
 	font-size: 12px;
