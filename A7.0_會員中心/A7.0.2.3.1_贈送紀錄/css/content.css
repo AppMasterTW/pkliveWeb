@@ -231,8 +231,6 @@
 	position: relative;
 	z-index: 10;
 }
-
-
 .center_content p{
 	font-family: PingFangTC-Light;
 	font-size: 14px;
@@ -318,13 +316,14 @@
   	margin-top: 24px;
   	margin-bottom: 42px;
 }
+
 .row{
 	display: table-row;
 	text-align: left;
 	border-bottom: 1px solid rgba(216,216,216,0.4);
-	box-sizing: border-box;
 }
 .row.title{
+	/* Rectangle: */
 	display: table-row;
 	background: rgba(245,166,35,0.25);
 	border-bottom: none;
@@ -345,10 +344,7 @@
 }
 
 .cell.lg{
-	width:39%;
-}
-.cell.mini{
-	width:9%;
+	width:30%;
 }
 /*form end*/
 
