@@ -231,6 +231,8 @@
 	position: relative;
 	z-index: 10;
 }
+
+
 .center_content p{
 	font-family: PingFangTC-Light;
 	font-size: 14px;
@@ -316,14 +318,13 @@
   	margin-top: 24px;
   	margin-bottom: 42px;
 }
-
 .row{
 	display: table-row;
 	text-align: left;
 	border-bottom: 1px solid rgba(216,216,216,0.4);
+	box-sizing: border-box;
 }
 .row.title{
-	/* Rectangle: */
 	display: table-row;
 	background: rgba(245,166,35,0.25);
 	border-bottom: none;
@@ -334,15 +335,19 @@
 	font-size: 16px;
 	color: #595959;
 	line-height: 22px;
-	padding: 16px;
+	padding: 16px 12px;
 	vertical-align: middle;
 }
 .cell.title{
 	display: table-cell;
 	font-family: PingFangTC-Semibold;
-	padding: 4px 16px;
+	padding: 4px 12px;
 }
-/*form end*/
+
+/*.cell.lg{
+	width:39%;
+}
+*//*form end*/
 
 
 .pageControls{

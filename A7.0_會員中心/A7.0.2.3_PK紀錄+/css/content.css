@@ -335,20 +335,13 @@
 	font-size: 16px;
 	color: #595959;
 	line-height: 22px;
-	padding: 16px 10px;
+	padding: 16px;
 	vertical-align: middle;
 }
 .cell.title{
 	display: table-cell;
 	font-family: PingFangTC-Semibold;
-	padding: 4px 10px;
-}
-
-.cell.lg{
-	width:39%;
-}
-.cell.mini{
-	width:9%;
+	padding: 4px 16px;
 }
 /*form end*/
 
