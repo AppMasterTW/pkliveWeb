@@ -315,8 +315,7 @@
 	display: table;
 	width: 100%;
 	border-collapse:collapse;
-  	margin-top: 24px;
-  	margin-bottom: 42px;
+  	margin:24px 0;
 }
 .row{
 	display: table-row;
