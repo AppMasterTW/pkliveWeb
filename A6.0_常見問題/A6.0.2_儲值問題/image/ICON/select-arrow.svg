@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>select-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-6&amp;9_問題＆footer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M24.1111867,9.38785469 C24.6855788,8.8707151 25.6168524,8.8707151 26.1912445,9.38785469 C26.7656366,9.90499428 26.7656366,10.7434432 26.1912445,11.2605828 L16.3510482,20.1199578 C15.7766561,20.6370974 14.8453825,20.6370974 14.2709904,20.1199578 L4.43079408,11.2605828 C3.85640197,10.7434432 3.85640197,9.90499428 4.43079408,9.38785469 C5.00518619,8.8707151 5.9364598,8.8707151 6.5108519,9.38785469 L15.3110193,17.3108656 L24.1111867,9.38785469 Z" id="select-arrow" fill="#F5A623" fill-rule="nonzero"></path>
+    </g>
+</svg>
