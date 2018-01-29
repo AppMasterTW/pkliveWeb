@@ -7,7 +7,7 @@
 
 /*sideBar*/
 .sideBar{
-	width: 17%;
+	width: 19%;
 	display: inline-block;
 	vertical-align: top;
 	background-color: #FFF;
@@ -68,8 +68,6 @@
 	left: -199px;
 	z-index: -1;
 	}
-
-
 .content .sub-title{
 	font-family: PingFangTC-Semibold;
 	font-size: 16px;
@@ -95,43 +93,45 @@
 	letter-spacing: 1.5px;	
 	text-align: left;
 }
-ul,ol{
-  margin:0;
+.content_body ul,ol{
+	margin:0;
+	padding: 0;
 }
-ul li{
+.content_body ul li{
 	list-style-type:decimal;
-	list-style-position: inside;
+	list-style-position: outside;
+	margin-left: 25px;
 	font-family: PingFangTC-Light;
 	font-size: 14px;
 	color: #393E46;
 	letter-spacing: 1.5px;	
 	text-align: left;
 }
-ol li{
+.content_body ol li{
 	list-style-type:none;
+	/*list-style-position: outside;*/
+	margin: 0;
 	counter-increment: cnt;
 	font-family: PingFangTC-Light;
 	font-size: 14px;
 	color: #393E46;
 	letter-spacing: 1.5px;	
 	text-align: left;
-	/*list-style-position: inside;*/
+	position: relative;
+	margin-left: 30px;
 }
-ol li.space{
-	padding-left: 20px;
-}
-ol li::before{
+.content_body ol li::before{
   display: marker;
   content: "(" counter(cnt) ") ";
-  /*position: relative;*/
-  /*left: -10px;*/
-  /*padding-right: 10px;*/
+  position: absolute;
+  left: -30px;
+
 }
-ol ul.upper-alpha li{
+.content_body ol ul.upper-alpha li{
 	list-style-type: upper-alpha;
-	padding-left: 30px;
+	/*margin-left: 60px;*/
 }
-ol ul.upper-alpha li::before{
+.content_body ol ul.upper-alpha li::before{
 	display: none;
 }
 
