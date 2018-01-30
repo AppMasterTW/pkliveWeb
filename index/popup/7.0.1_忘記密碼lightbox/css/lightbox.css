@@ -71,8 +71,7 @@
 	padding-bottom: 0;
 	border-bottom: none;
 }
-
-.nav a{
+.nav_item a{
 	font-size: 20px;
 	font-family: PingFangTC-Medium, sans-serif;
 	letter-spacing: 1.5px;
@@ -81,19 +80,17 @@
 	color: #cccccc;
 	transition: 300ms;
 }
-.unactive:hover.unactive a{
-	color: #f5a623;
-}
-
-.nav .active a{
-	color: #f5a623;
-}
-.nav li.active{
+.nav_item.active{
 	border-bottom: 3px solid #f5a623;
 }
-
-.nav li:hover{
+.nav_item.active a{
+	color: #f5a623;
+}
+.nav_item:hover{
 	border-bottom: 3px solid #f5a623;
+}
+.nav_item:hover.nav_item a{
+	color: #f5a623;
 }
 .input_group{
 	width: 51%;
@@ -143,17 +140,10 @@ input[type=text]:focus,input[type=password]:focus,textarea:focus{
 	background: url(../image/ICON/select-arrow.svg) 96% / 15% no-repeat;
 	border-radius: 0;
 	margin: 0;
+	
 }
 select::-ms-expand { 
     display: none; /* remove default arrow in IE 10 and 11 */
-}
-
-.input_group a{
-	float: right;
-	color: #393E46;
-	font-size: 14px;
-    font-family: PingFangTC-Semibold, sans-serif;
-    line-height: 20px;
 }
 .lightbox_content input[type=submit]{
 	display: block;
@@ -176,30 +166,41 @@ select::-ms-expand {
 .lightbox_content input[type=submit]:active{
 	background-color: #C38B22;
 }
+
 /*checkbox*/
-
-
 /* Create a custom checkbox */
 .container {
-display: inline-block;
-position: relative;
-padding-left: 24px;
-cursor: pointer;
-text-align: left;
-font-size: 14px;
-font-family: PingFangTC-Light, sans-serif;
-line-height: 20px;
-color: #393E46;
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
+	display:inline-block;
+	position: relative;
+	padding-left: 24px;
+	cursor: pointer;
+	text-align: left;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
-
+/*checkbox*/
+.container>p{
+	font-size: 14px;
+	font-family: PingFangTC-Light, sans-serif;
+	line-height: 20px;
+	color: #393E46;
+}
+.container a{
+	color:  #393E46;
+	font-size: 14px;
+	font-family: PingFangTC-Semibold, sans-serif;
+	line-height: 20px;
+	position: relative;
+	z-index: 99;
+}
+/*checkbox end*/
 /* Hide the browser's default checkbox */
 .container input {
   position: absolute;
   opacity: 0;
+  display: none;
 }
 
 /* Create a custom checkbox */
@@ -249,11 +250,10 @@ user-select: none;
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
 /*checkbox end*/
 
 
-.lightbox_content p{
+.lightbox_content>p{
 	margin-top: 20px;
 	margin-bottom: 16px;
 	font-size: 16px;

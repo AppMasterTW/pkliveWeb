@@ -38,9 +38,9 @@
 	color: #f5a623;
 	border-bottom: solid 2px  #f5a623;
 }
-.sec_pkgame .unactive li:hover{
-	color: #f5a623;
-	border-bottom: solid 2px  #f5a623;
+.sec_pkgame li:hover{
+	color:#f5a623;
+	border-bottom: solid 2px #f5a623;
 }
 
 .sec_pkgame .box_wrapper{
