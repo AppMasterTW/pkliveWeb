@@ -18,15 +18,3 @@ body{
 	background: linear-gradient(to right, #4b067c, #1d1d1d);
 	text-align: center;
 }
-
-#vedeo{
-	position:absolute;
-	top: 0;
-	width: 100%;
-	height:150%;
-	background: url(../image/background_image/bg.png) no-repeat top center;
-	opacity: 0.49;
-	mix-blend-mode: luminosity;
-	background-size: cover;
-	z-index: -1;
-}
