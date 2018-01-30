@@ -168,7 +168,7 @@ header{
     width: 150%;
     background-color: #f95959;
     left: 50%;
-    margin-top: 19px;
+    margin-top: 18px;
     transform:translate(-50%,0) scale(0.8);
     transform-origin: 50%-10px;
     pointer-events: none;
@@ -187,6 +187,7 @@ header{
 .main_sub_nav.nav_user{
 	width: 660%;
 	transform:translate(-75%,0) scale(0.8);
+	margin-top: 16px;
 }
 .main_sub_nav.nav_user li{
 	margin: 0 15px;

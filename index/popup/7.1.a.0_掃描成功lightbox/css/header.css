@@ -187,7 +187,7 @@ header{
     background-color: #f95959;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
     left: 50%;
-    margin-top: 19px;
+    margin-top: 18px;
     transform:translate(-50%,0) scale(0.8);
     transform-origin: 50%-10px;
     pointer-events: none;
@@ -202,6 +202,7 @@ header{
 }
 .main_sub_nav.nav_user{
 	width: 200%;
+	margin-top: 16px;
 }
 .main_sub_nav.nav_user li{
 	margin: 0 11px;

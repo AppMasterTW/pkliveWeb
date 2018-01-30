@@ -151,12 +151,12 @@ p.hashtag a:first-child{
 	background-color: #F95959;
 }
 
-
 .box_pklive .intro{
 	color: #393e46;
 	text-align: left;
-	padding-left: 14px;
+	padding: 0 14px;
 	padding-top:12px;
+	position: relative;
 }
 .box_pklive:hover .intro{
 	color: #fff;
@@ -171,6 +171,21 @@ p.hashtag a:first-child{
 	margin-top: 5px;
 	font-size: 16px;
 	font-weight: 300;	
+}
+.intro span.heart{
+	font-family: PingFangTC-Light;
+	font-size: 14px;
+	color: #F95959;
+	line-height: 20px;
+	text-align: right;
+	position: absolute;
+	top: 11px;
+	right: 14px;
+	}
+.intro span.heart::before{
+	content: url(../image/ICON/heart.svg);
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .pageControls{
