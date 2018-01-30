@@ -374,7 +374,7 @@ p.hashtag a:hover{
 	border-bottom: none;
 }
 
-.rankingTab a{
+.rankingTab_item a{
 	font-size: 20px;
 	font-family: PingFangTC-Medium, sans-serif;
 	letter-spacing: 1.5px;
@@ -383,18 +383,17 @@ p.hashtag a:hover{
 	color: #cccccc;
 	transition: 300ms;
 }
-.unactive:hover.unactive a{
+.rankingTab_item:hover.rankingTab_item a{
 	color: #f5a623;
 }
-
 .rankingTab .active a{
 	color: #f5a623;
 }
-.rankingTab li.active{
+.rankingTab_item.active{
 	border-bottom: 3px solid #f5a623;
 }
 
-.rankingTab li:hover{
+.rankingTab_item:hover{
 	border-bottom: 3px solid #f5a623;
 }
 .rankingList{
@@ -454,7 +453,7 @@ p.hashtag a:hover{
 	margin-left: 16px;
 
 }
-
+/*sidebar end*/
 
 /*textbox*/
 
